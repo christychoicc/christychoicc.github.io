@@ -1,3 +1,3 @@
-# Christy Choi
-Hello World
+# Welcome!
+My name is Christy. 
 
