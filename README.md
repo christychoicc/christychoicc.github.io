@@ -1,3 +1,3 @@
-### Christy Choi
+# Christy Choi
 Hello World
 
