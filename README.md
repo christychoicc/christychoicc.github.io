@@ -1,3 +1,3 @@
 # Welcome!
-My name is Christy. 
+Hello, my name is Christy
 
