@@ -1,7 +1,6 @@
-![My photo](https://github.com/christychoicc.png?size=200)
 
-# Hello, my name is Christy!
-Masters Student at UCL, The Bartlett Centre for Advanced Spatial Analysis | Graduate of the University of Manchester
+# Welcome!
+Hello, my name is Christy! Masters Student at UCL, The Bartlett Centre for Advanced Spatial Analysis | Graduate of the University of Manchester, BSc Planning and Real Estate
 
 # Social Media
 * **GitHub**: [christychoicc](https://christychoicc.github.io/)
