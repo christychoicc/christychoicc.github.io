@@ -23,7 +23,7 @@ repository               : "christychoicc/christychoicc.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile_picture.jpg"
   name             : "Chi Chin Christy Choi"
   pronouns         : "she/her"  
   bio              : "Master's Student at the Bartlett Centre of Advanced Spatial Analytics, UCL."
