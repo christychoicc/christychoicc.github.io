@@ -13,5 +13,5 @@ Profile
 ======
 
 - View my Curriculum Vitae: [CV](https://christychoicc.github.io/cv/)
-- View my Courseworks: [MSc Urban Spatial Science Courseworks](https://christychoicc.github.io/coursework/)
+- View my MSc Urban Spatial Science courseworks: [Courseworks](https://christychoicc.github.io/coursework/)
 
