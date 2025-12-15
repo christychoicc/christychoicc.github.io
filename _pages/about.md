@@ -12,6 +12,6 @@ My name is Christy, a current Master's of Science student in Urban Spatial Scien
 Profile
 ======
 
-- View my Curriculum Vitae: [CV]()
-- View my Courseworks: [MSc Urban Spatial Science Courseworks]()
+- View my Curriculum Vitae: [CV](https://christychoicc.github.io/cv/)
+- View my Courseworks: [MSc Urban Spatial Science Courseworks](https://christychoicc.github.io/coursework/)
 
