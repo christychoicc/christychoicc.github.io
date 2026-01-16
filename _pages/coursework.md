@@ -20,5 +20,5 @@ This is a spatial hotspot analysis examining where deaths and serious injuries c
 View the full report (HTML): [TfL Vision Zero](https://christychoicc.github.io/coursework/TfL-Vision-Zero.html)
 
 ### CASA0007 Quanitative Methods 
-
-View the full report (PDF) : [House Prices and London Underground: Does Multiple Interchange Tube Stations Link with Higher London House Prices in 2024?](https://christychoicc.github.io/coursework/London_Tube_PPD_Regression_2024.pdf)
+#### House Prices and London Underground: Does Multiple Interchange Tube Stations Link with Higher London House Prices in 2024?
+View the full report (PDF) : [House Prices and London Underground Regression Analysis](https://christychoicc.github.io/coursework/London_Tube_PPD_Regression_2024.pdf)
