@@ -18,3 +18,7 @@ View the full report (HTML): [New York Evictions](https://christychoicc.github.i
 This is a spatial hotspot analysis examining where deaths and serious injuries cluster across London in 2024 using casualty data provided by TfL. The analysis applied point pattern analysis methods and spatial autocorrelation methods to identify statistically significant hotspot and coldspot areas and discuss policy implications for Vision Zero.
 
 View the full report (HTML): [TfL Vision Zero](https://christychoicc.github.io/coursework/TfL-Vision-Zero.html)
+
+### CASA0007 Quanitative Methods 
+
+View the full report (PDF) : [House Prices and London Underground: Does Multiple Interchange Tube Stations Link with Higher London House Prices in 2024?](https://christychoicc.github.io/coursework/London_Tube_PPD_Regression_2024.pdf)
