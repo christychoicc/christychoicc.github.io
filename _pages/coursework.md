@@ -18,3 +18,10 @@ View the full report (HTML): [New York Evictions](https://christychoicc.github.i
 This is a spatial hotspot analysis examining where deaths and serious injuries cluster across London in 2024 using casualty data provided by TfL. The analysis applied point pattern analysis methods and spatial autocorrelation methods to identify statistically significant hotspot and coldspot areas and discuss policy implications for Vision Zero.
 
 View the full report (HTML): [TfL Vision Zero](https://christychoicc.github.io/coursework/TfL-Vision-Zero.html)
+
+### CASA0007 Quantitative Methods
+
+#### House Prices and London Underground: Does Multiple Interchange Tube Stations Link with Higher London House Prices in 2024?
+Do multi-line Tube interchanges relate to higher house prices in London? This report analysed 82k+ property sales in London in 2024 from HM Land Registry Price Paid Data to test whether the connectivity level of the nearest Underground station (single-line vs 2-line vs 3+ line interchange) is associated with sale prices, controlling for property types, distance to central London, distance to nearest Tube station, and deprivation indicies (IMD). The final model explained a substantial variance (R² ≈ 0.527) and found higher prices near multi-line interchanges. Some local neighbourhood effects remain visible in the unexplained part of the model, supported by a positive Moran’s I (≈0.389). A technical appendix is included within the report.
+
+View the full report (PDF): [London House Prices and Underground Regression Analysis 2024]
