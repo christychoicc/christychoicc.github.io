@@ -13,7 +13,7 @@ Education
 ======
 * MSc Urban Spatial Science, University College London, 2025 - 2026 (expected)
   * Royal Geographical Society (with IBG) Accredited
-  * Modules include specialisation in Big Data, Urban Modelling and Simulation pathways: Urban Systems Theory; Geographic Information Systems and Science; Quantitative Methods; Foundations of Spatial Data Science; Data Science for Spatial Systems; Agent-Based Modelling for Spatial Systems; Building Spatial Applications with Big Data; Remotely Sensing Cities and Environments; Dissertation.
+  * Modules include specialisation in Big Data, Urban Modelling and Simulation pathways: Urban Systems Theory; Geographic Information Systems and Science (70.9); Quantitative Methods; Foundations of Spatial Data Science; Data Science for Spatial Systems; Agent-Based Modelling for Spatial Systems; Building Spatial Applications with Big Data; Remotely Sensing Cities and Environments; Dissertation.
 * BSc Planning and Real Estate, University of Manchester, 2022 - 2025
   * RICS Accredited, RTPI Partially Accredited
   * Final Grade: Second Class with Honours, Division One (2.1)
