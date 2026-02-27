@@ -44,7 +44,7 @@ style_mono_light(
   extra_css = list(
     # Title (h1)
     ".title-slide h1" = list(
-      "font-size" = "45px",
+      "font-size" = "40px",
       "margin-bottom" = "15px"
     ),
     # Subtitle (h2)
@@ -65,6 +65,7 @@ style_mono_light(
 # Outline
 
 - Spatial Analysis 
+- Mobility vs Personality
 - Transport Analysis and Policy Proposal
 ---
 class: inverse, center, middle
@@ -73,14 +74,108 @@ class: inverse, center, middle
 - TfL Vision Zero Action Plan 
 </div>
 ---
+```{r tech-setup, include=FALSE}
+library(xaringanthemer)
+library(xaringanExtra)
+
+options(htmltools.dir.version = FALSE)
+# Load xaringanExtra for the tabs
+style_extra_css(css = list(
+    ".pull-left-narrow" = list("float" = "left", "width" = "30%"),
+    ".pull-right-wide"  = list("float" = "right", "width" = "65%"),
+    ".pull-left-wide"   = list("float" = "left", "width" = "65%"),
+    ".pull-right-narrow" = list("float" = "right", "width" = "30%")
+))
+xaringanExtra::use_panelset()
+```
 # TfL Vision Zero Action Plan
 
----
-# TfL Vision Zero Action Plan
+.panelset[
+.panel[.panel-name[Background]
+.small[
+**Background and Policy Overview**
+- **Goal**: Eliminate all deaths and serious injuries on London’s transport network by 2041.
 
----
-# TfL Vision Zero Action Plan
+- **Ambitions**: Focuses on safe speeds, safe streets, safe vehicles, and safe behavior.
 
+- **Trends**: Fatality rates increased by 16% compared to 2023, with only a minor reduction in overall serious injuries.
+
+- **Vulnerable Road Users**: Pedestrians, cyclists, and motorcyclists account for 80% of all fatalities.
+
+- **Spatial Strategy**: Identifying high-risk hotspots is essential for targeted prevention and effective policy intervention.
+]
+]
+
+.panel[.panel-name[Data]
+.small[
+**Which areas exhibit spatial hotspots clustering activity of deaths and serious injuries across London in 2024?** 
+
+Hypothesis: Incidents causing deaths and injuries are not spatially random, and they do exhibit clustering in specific areas of London.
+.pull-left-narrow[
+Data: 
+- London Boundaries Data (Polygon)
+- London MSOA (Polygon)
+- TfL Casualty Data (Point)]
+.pull-right-wide[
+Data Processing
+- Spatial: Reproject CRS (EPSG:27700), subset MSOA boundaries to Greater London
+- Filtering: Limit data to 2024 and filter "Fatal" and "Serious" data only
+- Joins: Count casualties by MSOA and calculate density for hotspot analysis
+]
+]
+]
+
+.panel[.panel-name[Exploratory]
+.small[Graphs and initial findings...
+.pull-left[
+```{r, echo=FALSE, out.width='100%', fig.align='center'}
+# Picture: Histogram
+knitr::include_graphics("../images/tfl_histogram.png")
+```
+<p style="font-size: 0.6em; text-align: center; margin-top: 0;">
+Figure 1: Distribution of Casualty Events across London MSOA  
+</p>
+]
+.pull-right[
+```{r, echo=FALSE, out.width='100%', fig.align='center'}
+# Picture: KDE
+knitr::include_graphics("../images/tfl_kde.png")
+```
+<p style="font-size: 0.6em; text-align: center; margin-top: 0;">
+Figure 2: Distribution of Casualty Events across London MSOA  
+</p>]
+]
+]
+
+.panel[.panel-name[Spatial]
+Hot and Cold Spot Analysis: Getis Ord Gi* and Moran's I
+.pull-left-wide[
+```{r, echo=FALSE, out.width='90%', fig.align='center'}
+# Picture: Gitis Ord* Hotspot Map
+knitr::include_graphics("../images/tfl_vision_zero_final_map.png")
+```
+<p style="font-size: 0.6em; text-align: left; margin-top: 0;">
+Figure 3: Getis Ord Gi* Hotspot and Coldspot Map 
+</p>
+].pull-right-narrow[
+### Moran's I
+.center[
+# 0.243
+]
+*p < 0.05* = significant spatial autocorrelation
+<p style="font-size: 0.6em; text-align: left; margin-top: 0;">
+(Casualty density is not randomly distributed, but spatially clustered) 
+</p>
+]]
+
+.panel[.panel-name[Reflection]
+### Limitations & Future Research
+* **Temporal Scope**: Analysis is limited to 2024; longer time frame is required to capture long-term trends and patterns
+* **Interpretation Warning**: Hotspots identify clustering of incidents, but they should not be viewed as the only "hazardous" areas for transport
+* **Behavioral Factors**: High incident rates in Central London may be linked to urban stress; future research should incorporate **Big Five personality**
+* **Land Factors**: Next steps include analyzing hotspots alongside **land use data** (commercial, residential, industrial) for holistic policy intervention.
+]
+]
 ---
 class: inverse, center, middle
 # Transport Analysis and Policy Proposal 
