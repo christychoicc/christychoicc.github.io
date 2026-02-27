@@ -31,6 +31,7 @@ book:
         
       
   chapters:
+    - index.qmd
     - about.qmd
     - coursework.qmd
     - cv.qmd
