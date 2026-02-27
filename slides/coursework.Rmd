@@ -30,6 +30,10 @@ myBib <- ReadBib("../references.bib", check = FALSE)
 
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
 library(xaringanthemer)
+library(xaringanExtra)
+
+# Enable panelsets
+xaringanExtra::use_panelset()
 
 style_mono_light(
   base_color = "#2c3e50",
@@ -38,27 +42,18 @@ style_mono_light(
   text_font_google   = google_font("Libre Baskerville"),
   code_font_google   = google_font("Fira Code"),
   base_font_size = "22px",
-  header_h1_font_size = "2.2rem", # Was likely ~2.5-3rem by default
+  header_h1_font_size = "2.2rem",
   header_h2_font_size = "1.8rem",
   header_h3_font_size = "1.4rem",
+  # ALL custom CSS must live here together
   extra_css = list(
-    # Title (h1)
-    ".title-slide h1" = list(
-      "font-size" = "40px",
-      "margin-bottom" = "15px"
-    ),
-    # Subtitle (h2)
-    ".title-slide h2" = list(
-      "font-size" = "28px",
-      "margin-top" = "0px",
-      "margin-bottom" = "30px"
-    ),
-    # Author, Institute, Date (h3)
-    ".title-slide h3" = list(
-      "font-size" = "18px",
-      "font-weight" = "normal",
-      "margin-bottom" = "10px"
-    )
+    ".title-slide h1" = list("font-size" = "40px", "margin-bottom" = "15px"),
+    ".title-slide h2" = list("font-size" = "28px", "margin-top" = "0px", "margin-bottom" = "30px"),
+    ".title-slide h3" = list("font-size" = "18px", "font-weight" = "normal", "margin-bottom" = "10px"),
+    ".pull-left-narrow" = list("float" = "left", "width" = "30%"),
+    ".pull-right-wide"  = list("float" = "right", "width" = "65%"),
+    ".pull-left-wide"   = list("float" = "left", "width" = "65%"),
+    ".pull-right-narrow" = list("float" = "right", "width" = "30%")
   )
 )
 ```
@@ -74,20 +69,6 @@ class: inverse, center, middle
 - TfL Vision Zero Action Plan 
 </div>
 ---
-```{r tech-setup, include=FALSE}
-library(xaringanthemer)
-library(xaringanExtra)
-
-options(htmltools.dir.version = FALSE)
-# Load xaringanExtra for the tabs
-style_extra_css(css = list(
-    ".pull-left-narrow" = list("float" = "left", "width" = "30%"),
-    ".pull-right-wide"  = list("float" = "right", "width" = "65%"),
-    ".pull-left-wide"   = list("float" = "left", "width" = "65%"),
-    ".pull-right-narrow" = list("float" = "right", "width" = "30%")
-))
-xaringanExtra::use_panelset()
-```
 # TfL Vision Zero Action Plan
 
 .panelset[

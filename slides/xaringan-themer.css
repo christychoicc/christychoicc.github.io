@@ -309,9 +309,6 @@ table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
   font-weight: normal;
   margin-bottom: 10px;
 }
-
-
-/* Extra CSS */
 .pull-left-narrow {
   float: left;
   width: 30%;
