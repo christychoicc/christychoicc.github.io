@@ -296,7 +296,7 @@ table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
 
 /* Extra CSS */
 .title-slide h1 {
-  font-size: 45px;
+  font-size: 40px;
   margin-bottom: 15px;
 }
 .title-slide h2 {
@@ -308,4 +308,23 @@ table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
   font-size: 18px;
   font-weight: normal;
   margin-bottom: 10px;
+}
+
+
+/* Extra CSS */
+.pull-left-narrow {
+  float: left;
+  width: 30%;
+}
+.pull-right-wide {
+  float: right;
+  width: 65%;
+}
+.pull-left-wide {
+  float: left;
+  width: 65%;
+}
+.pull-right-narrow {
+  float: right;
+  width: 30%;
 }
