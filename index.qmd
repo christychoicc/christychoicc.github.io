@@ -1,20 +1,24 @@
 ---
-title: "Welcome!"
+title: "Christy Choi"
+subtitle: "Master's Student at The Bartlett Centre for Advanced Spatial Analysis, UCL"
+image: images/profile_pic.jpg
+about:
+  id: hero-heading
+  template: trestles
+  image-width: 15em
+  image-shape: rounded
+
 ---
 
-:::::: columns
-::: {.column width="35%"}
-![](images/profile_pic.jpg){width="100%" style="border-radius: 15px;"}
+```{r load_packages, message=FALSE, warning=FALSE, include=FALSE}
+library(fontawesome)
+```
 
-[<i class="bi bi-github"></i> GitHub](https://github.com/christychoicc) | [<i class="bi bi-envelope"></i> Email](mailto:choichichinchristy@outlook.com)
-:::
-
-::: {.column width="5%"}
-:::
-
-::: {.column width="60%"}
+::: {#hero-heading}
 Hello! Welcome to my portfolio page.
 
-If you'd like to read more about my background and works, feel free to navigate through this page! [Learn more about me →](about.qmd)
+If you'd like to read more about my background and works, feel free to navigate through this page!
+[{{< fa brands github size=lg >}}](https://github.com/christychoicc) [{{< fa envelope size=lg >}}](mailto:choichichinchristy@outlook.com)
+
+[Learn more about me →](about.qmd){.about-links .subtitle}
 :::
-::::::
