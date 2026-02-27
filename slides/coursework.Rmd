@@ -1,0 +1,87 @@
+---
+title: "Coursework"
+subtitle: "MSc Urban Spatial Science,<br>BSc Planning and Real Estate"
+author: "Christy Choi"
+institute: "University College London, University of Manchester"
+date: "2026/02/27 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    #preamble (colour for the slide)
+    css: [default, xaringan-themer.css]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+    self_contained: false
+    ratio: '16:9'
+---
+```{r setup, include=FALSE}
+library(RefManageR)
+BibOptions(check.entries = FALSE,
+           bib.style = "authoryear",
+           cite.style = "authoryear",
+           style = "markdown",
+           hyperlink = TRUE,
+           dashed = FALSE,
+           no.print.fields=c("doi", "url", "urldate", "issn"))
+myBib <- ReadBib("../references.bib", check = FALSE)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+
+style_mono_light(
+  base_color = "#2c3e50",
+  background_color = "#fafafa",
+  header_font_google = google_font("Libre Baskerville"),
+  text_font_google   = google_font("Libre Baskerville"),
+  code_font_google   = google_font("Fira Code"),
+  base_font_size = "22px",
+  header_h1_font_size = "2.2rem", # Was likely ~2.5-3rem by default
+  header_h2_font_size = "1.8rem",
+  header_h3_font_size = "1.4rem",
+  extra_css = list(
+    # Title (h1)
+    ".title-slide h1" = list(
+      "font-size" = "45px",
+      "margin-bottom" = "15px"
+    ),
+    # Subtitle (h2)
+    ".title-slide h2" = list(
+      "font-size" = "28px",
+      "margin-top" = "0px",
+      "margin-bottom" = "30px"
+    ),
+    # Author, Institute, Date (h3)
+    ".title-slide h3" = list(
+      "font-size" = "18px",
+      "font-weight" = "normal",
+      "margin-bottom" = "10px"
+    )
+  )
+)
+```
+# Outline
+
+- Spatial Analysis 
+- Transport Analysis and Policy Proposal
+---
+class: inverse, center, middle
+# Spatial Analysis
+<div style="display: inline-block; text-align: left;">
+- TfL Vision Zero Action Plan 
+</div>
+---
+# TfL Vision Zero Action Plan
+
+---
+# TfL Vision Zero Action Plan
+
+---
+# TfL Vision Zero Action Plan
+
+---
+class: inverse, center, middle
+# Transport Analysis and Policy Proposal 
+---
