@@ -2,7 +2,7 @@
 title: "Christy Choi"
 image: images/profile_pic.jpg
 about:
-  template: trestles
+  template: jolla
   image-shape: rounded
   links:
     - icon: github
@@ -11,6 +11,6 @@ about:
       href: choichichinchristy@outlook.com
 ---
 
-Welcome to my portfolio page. 
+Welcome to my portfolio page. Please feel free to navigate through this website for my coursework and CV. 
 
 [Learn more about me →](about.qmd)

@@ -1,5 +1,5 @@
 project:
-  type: book
+  type: website
   output-dir: docs
   render: 
   - "*.qmd"      # Only render QMD files
@@ -8,10 +8,8 @@ project:
   - slides/
   - images/
 
-book:
+website:
   title: "Christy Choi"
-  author: "Chi Chin Christy Choi"
-  date: "2/27/2026"
   navbar:
     collapse: true
     collapse-below: lg
@@ -28,14 +26,6 @@ book:
     right:
       - icon: github
         href: "https://github.com/christychoicc"
-        
-      
-  chapters:
-    - index.qmd
-    - coursework.qmd
-    - cv.qmd
-
-bibliography: references.bib
 
 format:
   html:
