@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Coursework</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Christy Choi" />
+    <script src="libs/header-attrs-2.30/header-attrs.js"></script>
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/panelset-0.3.1/panelset.css" rel="stylesheet" />
+    <script src="libs/panelset-0.3.1/panelset.js"></script>
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+.title[
+# Coursework
+]
+.subtitle[
+## MSc Urban Spatial Science,<br>BSc Planning and Real Estate
+]
+.author[
+### Christy Choi
+]
+.institute[
+### University College London, University of Manchester
+]
+.date[
+### 2026/02/27 (updated: 2026-02-27)
+]
+
+---
+
+
+
+
+# Outline
+I have completed a diverse range of spatial and urban planning coursework during my bachelors and masters studies, this includes Wilmslow Baseline Analysis Report; Trafford Local Plan-Making - Transport, Development Management; Planning Application for Residential Development at Thornham Old Road, Oldham – Site Potential Evaluation and Design and Access Statement; Site Analysis and Local Character and Facilities with Map Making Illustrations; M3 1FB Context Analyses and Sustainable Development Final Project; M1 4HD Office Valuation Report, Housing Market Insights Report of Greater Manchester; Woodford Aerodrome, Stockport Public Local Planning Enquiry 
+
+For this presentation I will focus specifically on my work related to transportation and mobility. 
+- Spatial Analysis 
+- Mobility vs Personality
+- Transport Analysis and Policy Proposal
+---
+class: inverse, center, middle
+# Spatial Analysis
+&lt;div style="display: inline-block; text-align: left;"&gt;
+TfL Vision Zero Action Plan 
+&lt;/div&gt;
+---
+# TfL Vision Zero Action Plan
+
+.panelset[
+.panel[.panel-name[Background]
+.small[
+**Background and Policy Overview**
+- **Goal**: Eliminate all deaths and serious injuries on London’s transport network by 2041.
+
+- **Ambitions**: Focuses on safe speeds, safe streets, safe vehicles, and safe behavior.
+
+- **Trends**: Fatality rates increased by 16% compared to 2023, with only a minor reduction in overall serious injuries.
+
+- **Vulnerable Road Users**: Pedestrians, cyclists, and motorcyclists account for 80% of all fatalities.
+
+- **Spatial Strategy**: Identifying high-risk hotspots is essential for targeted prevention and effective policy intervention.
+]
+]
+
+.panel[.panel-name[Data]
+.small[
+**Which areas exhibit spatial hotspots clustering activity of deaths and serious injuries across London in 2024?** 
+
+Hypothesis: Incidents causing deaths and injuries are not spatially random, and they do exhibit clustering in specific areas of London.
+.pull-left-narrow[
+Data: 
+- London Boundaries Data (Polygon)
+- London MSOA (Polygon)
+- TfL Casualty Data (Point)]
+.pull-right-wide[
+Data Processing
+- Spatial: Reproject CRS (EPSG:27700), subset MSOA boundaries to Greater London
+- Filtering: Limit data to 2024 and filter "Fatal" and "Serious" data only
+- Joins: Count casualties by MSOA and calculate density for hotspot analysis
+]
+]
+]
+
+.panel[.panel-name[Exploratory]
+.small[Graphs and initial findings...
+.pull-left[
+&lt;img src="../images/tfl_histogram.png" alt="" width="100%" style="display: block; margin: auto;" /&gt;
+&lt;p style="font-size: 0.6em; text-align: center; margin-top: 0;"&gt;
+Figure 1: Distribution of Casualty Events across London MSOA  
+&lt;/p&gt;
+]
+.pull-right[
+&lt;img src="../images/tfl_kde.png" alt="" width="100%" style="display: block; margin: auto;" /&gt;
+&lt;p style="font-size: 0.6em; text-align: center; margin-top: 0;"&gt;
+Figure 2: Distribution of Casualty Events across London MSOA  
+&lt;/p&gt;]
+]
+]
+
+.panel[.panel-name[Spatial]
+Hot and Cold Spot Analysis: Getis Ord Gi* and Moran's I
+.pull-left-wide[
+&lt;img src="../images/tfl_vision_zero_final_map.png" alt="" width="90%" style="display: block; margin: auto;" /&gt;
+&lt;p style="font-size: 0.6em; text-align: left; margin-top: 0;"&gt;
+Figure 3: Getis Ord Gi* Hotspot and Coldspot Map 
+&lt;/p&gt;
+].pull-right-narrow[
+### Moran's I
+.center[
+# 0.243
+]
+*p &lt; 0.05* = significant spatial autocorrelation
+&lt;p style="font-size: 0.6em; text-align: left; margin-top: 0;"&gt;
+(Casualty density is not randomly distributed, but spatially clustered) 
+&lt;/p&gt;
+]]
+
+.panel[.panel-name[Reflection]
+### Limitations &amp; Future Research
+* **Temporal Scope**: Analysis is limited to 2024; longer time frame is required to capture long-term trends and patterns
+* **Interpretation Warning**: Hotspots identify clustering of incidents, but they should not be viewed as the only "hazardous" areas for transport
+* **Behavioral Factors**: High incident rates in Central London may be linked to urban stress; future research should incorporate **Big Five personality**
+* **Land Factors**: Next steps include analyzing hotspots alongside **land use data** (commercial, residential, industrial) for holistic policy intervention.
+]
+]
+---
+
+class: inverse, center, middle
+# Mobility vs Personality
+
+---
+# Mobility vs Personality
+.panelset[
+.panel[.panel-name[Existing Studies]
+.pull-left[
+&lt;img src="../images/big5_migration.png" alt="" width="100%" style="display: block; margin: auto;" /&gt;
+&lt;p style="font-size: 0.6em; text-align: center; margin-top: 0;"&gt;
+Figure 4: Causal Relationship Between Big5 and Migration Patterns (Dervied by Shuttleworth et al., 2021)
+&lt;/p&gt;
+]
+.pull-right[
+&lt;img src="../images/big5_pesh.png" alt="" width="100%" style="display: block; margin: auto;" /&gt;
+&lt;p style="font-size: 0.6em; text-align: center; margin-top: 0;"&gt;
+Figure 5: Causal Relationships Between Regional Personality Differences and PESH Outcomes (Derived from Rentfrow et al., 2015)
+&lt;/p&gt;]
+]
+
+.panel[.panel-name[Proposed Research]
+.pull-left-wide[
+&lt;img src="../images/proposed_rq.png" alt="" width="100%" style="display: block; margin: auto;" /&gt;
+&lt;p style="font-size: 0.6em; text-align: center; margin-top: 0;"&gt;
+Figure 6: Causal Diagram for Proposed Research Question  
+&lt;/p&gt;]
+.pull-right-narrow[
+**How does ageing and one’s corresponding life experiences shape relationships between automobility and peri-urban “cheap sprawl**
+]
+]]
+---
+class: inverse, center, middle
+# Transport Analysis and Policy Proposal 
+---
+# Baseline Analysis 1
+.panelset[
+.panel[.panel-name[Transport Network]
+.pull-left-wide[
+&lt;img src="../images/publictransport.png" alt="" width="100%" style="display: block; margin: auto;" /&gt;
+&lt;p style="font-size: 0.6em; text-align: center; margin-top: 0;"&gt;
+Figure 7: Public Transport Infrastructure in Wilmslow  
+&lt;/p&gt;
+]
+.pull-right-narrow[
+- Bus
+- Train
+- Air 
+]
+]
+
+.panel[.panel-name[Car Ownership]
+.pull-left-wide[
+&lt;img src="../images/carownership.png" alt="" width="100%" style="display: block; margin: auto;" /&gt;
+&lt;p style="font-size: 0.6em; text-align: center; margin-top: 0;"&gt;
+Figure 8: Car Ownership and Households   
+&lt;/p&gt;
+]
+.pull-right-narrow[
+.tiny-text[
+- **High Ownership**: 40% own 2+ cars; 82% at least one car, above 73% national average
+- **Commute Methods**: 92% drive to work; only 8% use public transport
+- **Reasons to use**: Convenience, flexibility, and commuting to nearby cities
+- **Spatial Patterns**: Ownership peaks in residential North/South areas; lower in the town center
+]
+]]
+
+.panel[.panel-name[Commuting 1]
+.pull-left[
+&lt;img src="../images/trainbus_locations.png" alt="" width="100%" style="display: block; margin: auto;" /&gt;
+&lt;p style="font-size: 0.6em; text-align: center; margin-top: 0;"&gt;
+Figure 9: Train and Bus Station Locations   
+&lt;/p&gt;
+]
+.pull-right[
+&lt;img src="../images/carorvan_work.png" alt="" width="100%" style="display: block; margin: auto;" /&gt;
+&lt;p style="font-size: 0.6em; text-align: center; margin-top: 0;"&gt;
+Figure 10: Travel to work: Car or Vans   
+&lt;/p&gt;
+]
+]]
+---
+# Baseline Analysis 2
+.panelset[
+.panel[.panel-name[Commuting 2]
+.pull-left[
+&lt;img src="../images/distancetravel_work.png" alt="" width="100%" style="display: block; margin: auto;" /&gt;
+&lt;p style="font-size: 0.6em; text-align: center; margin-top: 0;"&gt;
+Figure 11: Distance of Travelling to Work
+]
+.pull-right[
+&lt;img src="../images/travel_methods.png" alt="" width="100%" style="display: block; margin: auto;" /&gt;
+&lt;p style="font-size: 0.6em; text-align: center; margin-top: 0;"&gt;
+Figure 12: Travel Methods in Wilmslow
+]
+]]
+
+---
+# Proposal
+.panelset[
+.panel[.panel-name[Active Travel]
+- Improve pedestrian and cycling paths to encourage alternatives for short-distance travel
+- "two-pronged" approach 
+  - Promotes public health (physical and psychological) benefits while reducing car reliance
+  - Improve environmental conditions
+- Safety measures required (e.g. additional signs and potentially traffic directions to make sure users are within a safe margin)
+]
+
+.panel[.panel-name[Car Club]
+- Establish short-term car rental services to reduce private car ownership and parking pressure
+- A cost-effective "pay as you drive" model, that supports net-zero goals, improves air quality, and serves irregular household travel needs
+- CoMoUK2021’s car club report: 27% of the respondents indicated that the reason for joining the car club membership is money saving and 75% of them agreed the fact that joining a car club membership can save money than owning a car
+]
+
+.panel[.panel-name[Public Transport Incentives]
+- Introduce a monthly travel card subscription offering discounted fares and travel rewards (e.g. cash rebates)
+- Increased demand can incentivise transport companies to improve bus frequencies, making public transport a more attractive and reliable commuting option
+]
+]
+---
+class: inverse, center, middle
+# Thank You!
+More can be found in: &lt;a href="https://christychoicc.github.io/coursework.html" style="color: white;"&gt;Coursework Page&lt;/a&gt;
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+  "highlightStyle": "github",
+  "highlightLines": true,
+  "countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
