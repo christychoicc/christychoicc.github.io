@@ -11,7 +11,7 @@ xaringanExtra::embed_xaringan(
 )
 ```
 
-Note \* this set of slides is for presentation purpose only, View the full-screen version at: [Coursework Slides](https://christychoicc.github.io/slides/coursework.html)
+Note\* this set of slides is for presentation purpose only, View the full-screen version at: [Coursework Slides](https://christychoicc.github.io/slides/coursework.html)
 
 ## MSc Urban Spatial Science, University College London
 
