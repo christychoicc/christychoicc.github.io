@@ -4,9 +4,24 @@ title: "Coursework"
 
 Welcome! This page showcases a collection of my academic coursework from my Master’s Degree in Urban Spatial Science and my Bachelor’s Degree in Planning and Real Estate. Both completed works and projects currently in progress are included in the below.
 
+```{r, echo=FALSE}
+xaringanExtra::embed_xaringan(
+  url = "slides/coursework.html", 
+  ratio = "16:9"
+)
+```
+
+Note \* this set of slides is for presentation purpose only, View the full-screen version at: [Coursework Slides](https://christychoicc.github.io/slides/coursework.html)
+
 ## MSc Urban Spatial Science, University College London
 
 ### Spatial Analysis - CASA0005 Geographic Information Systems and Science
+
+#### TfL Vision Zero
+
+This is a spatial hotspot analysis examining where deaths and serious injuries cluster across London in 2024 using casualty data provided by TfL. The analysis applied point pattern analysis methods and spatial autocorrelation methods to identify statistically significant hotspot and coldspot areas and discuss policy implications for Vision Zero.
+
+View the full report (HTML): [TfL Vision Zero](coursework/TfL-Vision-Zero.html){target="_blank"}
 
 #### New York Evictions
 
@@ -17,12 +32,6 @@ View the full report (HTML): [New York Evictions](coursework/New-York-Evictions.
 #### Graffiti San Francisco
 
 View the full report (HTML): coming soon…
-
-#### TfL Vision Zero
-
-This is a spatial hotspot analysis examining where deaths and serious injuries cluster across London in 2024 using casualty data provided by TfL. The analysis applied point pattern analysis methods and spatial autocorrelation methods to identify statistically significant hotspot and coldspot areas and discuss policy implications for Vision Zero.
-
-View the full report (HTML): [TfL Vision Zero](coursework/TfL-Vision-Zero.html){target="_blank"}
 
 ### CASA0007 Quantitative Methods
 
@@ -36,7 +45,7 @@ View the full report (PDF): \[London House Prices and Underground Regression Ana
 
 View my Learning Diary (Webpage): [CASA0023 Remotely Sensing Cities and Environments 25/26 Learning Diary](https://christychoicc.github.io/RSCE/)
 
-Note: This webpage is still in its building process, the full learning diary will be complete by April 2026.
+Note: This webpage is still in its building process, the full learning diary will be completed by April 2026.
 
 ## BSc Planning and Real Estate, University of Manchester
 
