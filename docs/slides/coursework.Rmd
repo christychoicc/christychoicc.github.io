@@ -58,7 +58,9 @@ style_mono_light(
 )
 ```
 # Outline
+I have completed a diverse range of spatial and urban planning coursework during my bachelors and masters studies, this includes Wilmslow Baseline Analysis Report; Trafford Local Plan-Making - Transport, Development Management; Planning Application for Residential Development at Thornham Old Road, Oldham – Site Potential Evaluation and Design and Access Statement; Site Analysis and Local Character and Facilities with Map Making Illustrations; M3 1FB Context Analyses and Sustainable Development Final Project; M1 4HD Office Valuation Report, Housing Market Insights Report of Greater Manchester; Woodford Aerodrome, Stockport Public Local Planning Enquiry 
 
+For this presentation I will focus specifically on my work related to transportation and mobility. 
 - Spatial Analysis 
 - Mobility vs Personality
 - Transport Analysis and Policy Proposal
@@ -66,7 +68,7 @@ style_mono_light(
 class: inverse, center, middle
 # Spatial Analysis
 <div style="display: inline-block; text-align: left;">
-- TfL Vision Zero Action Plan 
+TfL Vision Zero Action Plan 
 </div>
 ---
 # TfL Vision Zero Action Plan

@@ -54,3 +54,25 @@ Note: This webpage is still in its building process, the full learning diary wil
 This report analyses the transport infrastructure of Wilmslow, Cheshire, examining key themes including car ownership, public transport provision, and commuting patterns using data from the UK Census 2011 and Cheshire East Council. Spatial data analysis and choropleth mapping were produced using ArcGIS Pro, with supporting charts and data visualisations from Excel. A proposal report was also included, outlining actionable solutions of improved cycling infrastructure, car clubs, and travel card schemes to address the Wilmslow’s heavy car dependency and congestion issues.
 
 View the full report (PDF): [Wilmslow Baseline Analysis and Proposal Report](coursework/wilmslow_appliedproject.pdf){target="_blank"}
+
+### Other Courseworks
+
+-   Trafford Local Plan-Making - Transport, Development Management
+
+-    Planning Application for Residential Development at Thornham Old Road, Oldham
+
+-   Site Potential Evaluation and Design and Access Statement
+
+-   Site Analysis and Local Character and Facilities with Map Making Illustrations
+
+-   M3 1FB Context Analyses and Sustainable Development Final Project
+
+-   M1 4HD Office Valuation Report
+
+-   Housing Market Insights Report of Greater Manchester
+
+-   Woodford Aerodrome
+
+-   Stockport Public Local Planning Enquiry (for CPRE)
+
+-   Dissertation: Explore the role of vertical greenery systems in enhancing energy efficiency in dense urban areas, strategies for Hong Kong
