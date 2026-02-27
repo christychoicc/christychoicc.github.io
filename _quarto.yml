@@ -20,7 +20,7 @@ book:
     reader-mode: true
     left: 
       - text: "About"
-        href: about.qmd
+        href: index.qmd
       - text: "Coursework"
         href: coursework.qmd
       - text: "CV"
@@ -32,7 +32,6 @@ book:
       
   chapters:
     - index.qmd
-    - about.qmd
     - coursework.qmd
     - cv.qmd
 
