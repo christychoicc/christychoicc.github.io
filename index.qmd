@@ -1,9 +1,18 @@
-# Preface {.unnumbered}
+---
+title: "Christy Choi"
+image: images/profile_pic.jpg
+about:
+  template: trestles
+  image-shape: rounded
+  links:
+    - icon: github
+      href: https://github.com/christychoicc
+    - icon: envelope
+      href: choichichinchristy@outlook.com
+---
 
-This is a Quarto book.
+I am a student/professional in...
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+I am driven in my career to... 
 
-```{r}
-1 + 1
-```
+[Learn more about me →](about.qmd)
