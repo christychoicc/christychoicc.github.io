@@ -1,16 +1,20 @@
 ---
-title: "Christy Choi"
-image: images/profile_pic.jpg
-about:
-  template: jolla
-  image-shape: rounded
-  links:
-    - icon: github
-      href: https://github.com/christychoicc
-    - icon: envelope
-      href: choichichinchristy@outlook.com
+title: "Welcome!"
 ---
 
-Welcome to my portfolio page. Please feel free to navigate through this website for my coursework and CV. 
+:::::: columns
+::: {.column width="35%"}
+![](images/profile_pic.jpg){width="100%" style="border-radius: 15px;"}
 
-[Learn more about me →](about.qmd)
+[<i class="bi bi-github"></i> GitHub](https://github.com/christychoicc) | [<i class="bi bi-envelope"></i> Email](mailto:choichichinchristy@outlook.com)
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="60%"}
+Hello! Welcome to my portfolio page.
+
+If you'd like to read more about my background and works, feel free to navigate through this page! [Learn more about me →](about.qmd)
+:::
+::::::
