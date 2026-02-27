@@ -12,7 +12,7 @@ Welcome! This page showcases a collection of my academic coursework from my Mast
 
 This is a spatial hotspot analysis examining where eviction activities cluster across New York in 2020 using evictions data provided by NYC Open Data. The analysis applied point pattern analysis methods and spatial autocorrelation methods to identify statistically significant hotspot and coldspot areas, discussing areas to be prioritiesed for policy interventions.
 
-View the full report (HTML): [New York Evictions](https://christychoicc.github.io/coursework/New-York-Evictions.html)
+View the full report (HTML): [New York Evictions](coursework/New-York-Evictions.html){target="_blank"}
 
 #### Graffiti San Francisco
 
@@ -22,7 +22,7 @@ View the full report (HTML): coming soon…
 
 This is a spatial hotspot analysis examining where deaths and serious injuries cluster across London in 2024 using casualty data provided by TfL. The analysis applied point pattern analysis methods and spatial autocorrelation methods to identify statistically significant hotspot and coldspot areas and discuss policy implications for Vision Zero.
 
-View the full report (HTML): [TfL Vision Zero](https://christychoicc.github.io/coursework/TfL-Vision-Zero.html)
+View the full report (HTML): [TfL Vision Zero](coursework/TfL-Vision-Zero.html){target="_blank"}
 
 ### CASA0007 Quantitative Methods
 
@@ -44,4 +44,4 @@ Note: This webpage is still in its building process, the full learning diary wil
 
 This report analyses the transport infrastructure of Wilmslow, Cheshire, examining key themes including car ownership, public transport provision, and commuting patterns using data from the UK Census 2011 and Cheshire East Council. Spatial data analysis and choropleth mapping were produced using ArcGIS Pro, with supporting charts and data visualisations from Excel. A proposal report was also included, outlining actionable solutions of improved cycling infrastructure, car clubs, and travel card schemes to address the Wilmslow’s heavy car dependency and congestion issues.
 
-View the full report (PDF): [Wilmslow Baseline Analysis and Proposal Report](https://christychoicc.github.io/coursework/wilmslow_appliedproject.pdf)
+View the full report (PDF): [Wilmslow Baseline Analysis and Proposal Report](coursework/wilmslow_appliedproject.pdf){target="_blank"}
