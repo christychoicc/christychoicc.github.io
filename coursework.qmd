@@ -1,8 +1,6 @@
 ---
-title: "coursework"
+title: "Coursework"
 ---
-
-# Coursework
 
 Welcome! This page showcases a collection of my academic coursework from my Master’s Degree in Urban Spatial Science and my Bachelor’s Degree in Planning and Real Estate. Both completed works and projects currently in progress are included in the below.
 
