@@ -7,7 +7,6 @@ about:
   template: trestles
   image-width: 15em
   image-shape: rounded
-
 ---
 
 ```{r load_packages, message=FALSE, warning=FALSE, include=FALSE}
@@ -17,8 +16,7 @@ library(fontawesome)
 ::: {#hero-heading}
 Hello! Welcome to my portfolio page.
 
-If you'd like to read more about my background and works, feel free to navigate through this page!
-[{{< fa brands github size=lg >}}](https://github.com/christychoicc) [{{< fa envelope size=lg >}}](mailto:choichichinchristy@outlook.com)
+If you'd like to read more about my background and works, feel free to navigate through this page! [<i class="bi bi-github" style="font-size: 1.5rem;"></i>](https://github.com/christychoicc) [<i class="bi bi-envelope" style="font-size: 1.5rem;"></i>](mailto:choichichinchristy@outlook.com)
 
 [Learn more about me →](about.qmd){.about-links .subtitle}
 :::
