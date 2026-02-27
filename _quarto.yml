@@ -1,25 +1,51 @@
 project:
   type: book
+  output-dir: docs
+  render: 
+  - "*.qmd"      # Only render QMD files
+  - "!slides/"   # EXPLICITLY IGNORE this folder for rendering
+  resources: 
+  - slides/
+  - images/
 
 book:
-  title: "christychoicc.github.io"
-  author: "Norah Jones"
+  title: "Christy Choi"
+  author: "Chi Chin Christy Choi"
   date: "2/27/2026"
+  navbar:
+    collapse: true
+    collapse-below: lg
+    background: light
+    search: true
+    reader-mode: true
+    left: 
+      - text: "About"
+        href: about.qmd
+      - text: "Coursework"
+        href: coursework.qmd
+      - text: "CV"
+        href: cv.qmd
+    right:
+      - icon: github
+        href: "https://github.com/christychoicc"
+        
+      
   chapters:
-    - index.qmd
-    - intro.qmd
-    - summary.qmd
-    - references.qmd
+    - about.qmd
+    - coursework.qmd
+    - cv.qmd
 
 bibliography: references.bib
 
 format:
   html:
     theme:
-      - cosmo
-      - brand
-  pdf:
-    documentclass: scrreprt
+      #- cosmo
+      #- brand
+      light: [cosmo, flatly]
+      dark: [cosmo, darkly]
+    code-link: true
 
 editor: visual
+
 
