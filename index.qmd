@@ -11,8 +11,6 @@ about:
       href: choichichinchristy@outlook.com
 ---
 
-I am a student/professional in...
-
-I am driven in my career to... 
+Welcome to my portfolio page. 
 
 [Learn more about me →](about.qmd)
