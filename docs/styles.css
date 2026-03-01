@@ -68,6 +68,41 @@ nav[aria-label="breadcrumb"],
 }
 
 /* ============================================
+   KILL TOC AND MARGIN COLUMNS COMPLETELY
+   ============================================ */
+#quarto-margin-sidebar,
+.margin-sidebar,
+#quarto-sidebar-glass,
+.column-margin,
+aside.column-margin,
+aside#quarto-sidebar,
+.quarto-sidebar,
+.sidebar.margin-sidebar {
+  display: none !important;
+  width: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Force content to take full width */
+.quarto-layout-panel,
+.quarto-layout-row,
+.quarto-layout-cell,
+#quarto-document-content,
+.page-columns #quarto-content > *,
+.page-full #quarto-content > * {
+  max-width: 100% !important;
+  width: 100% !important;
+  grid-template-columns: 1fr !important;
+}
+
+/* Remove the grid that creates phantom columns */
+.page-columns {
+  display: block !important;
+  grid-template-columns: none !important;
+}
+
+/* ============================================
    REMOVE THE VERTICAL DIVIDER LINE
    ============================================ */
 .page-columns,
