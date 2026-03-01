@@ -9,11 +9,12 @@
 body,
 html {
   background-color: #ffffff !important;
-  padding-left: 220px !important;
+  padding-left: 200px !important;
+  margin: 0 !important;
 }
 
 /* ============================================
-   NAVBAR - force white
+   NAVBAR - force white, no border
    ============================================ */
 .navbar,
 .navbar-light,
@@ -22,7 +23,7 @@ header,
 header.quarto-title-block {
   background-color: #ffffff !important;
   background: #ffffff !important;
-  border-bottom: 1px solid #e5e5e5 !important;
+  border-bottom: none !important;
   box-shadow: none !important;
 }
 
@@ -72,6 +73,8 @@ article,
 .quarto-title,
 .quarto-title-meta {
   background-color: #ffffff !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
 }
 
 /* Remove Bootstrap grey utilities */
@@ -81,7 +84,7 @@ article,
 }
 
 /* ============================================
-   QUARTO SIDEBAR (default) - white
+   QUARTO DEFAULT SIDEBAR - nuke it
    ============================================ */
 nav.sidebar,
 .quarto-sidebar-toggle,
@@ -89,37 +92,39 @@ nav.sidebar,
 #quarto-sidebar {
   background-color: #ffffff !important;
   border-right: none !important;
+  display: none !important;
 }
 
 /* ============================================
-   PROFILE SIDEBAR (your fixed left panel)
+   PROFILE SIDEBAR (fixed left panel)
    ============================================ */
 .profile-sidebar-fixed {
   position: fixed;
-  top: 60px;
+  top: 55px;
   left: 0;
-  width: 220px;
-  height: calc(100vh - 60px);
-  padding: 30px 20px;
+  width: 200px;
+  height: calc(100vh - 55px);
+  padding: 25px 15px;
   background: #ffffff !important;
-  border-right: 1px solid #e5e5e5;
+  border-right: none !important;
+  border: none !important;
   overflow-y: auto;
   z-index: 100;
   text-align: center;
 }
 
 .profile-pic {
-  width: 140px;
-  height: 140px;
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
   object-fit: cover;
   display: block;
-  margin: 0 auto 15px;
+  margin: 0 auto 12px;
   border: 2px solid #2c3e50;
 }
 
 .profile-sidebar-fixed h3 {
-  font-size: 1.05rem;
+  font-size: 1rem;
   font-weight: 700;
   text-align: center;
   margin-bottom: 4px;
@@ -129,21 +134,21 @@ nav.sidebar,
 .pronouns {
   text-align: center;
   color: #888;
-  font-size: 0.85rem;
+  font-size: 0.82rem;
   margin-bottom: 8px;
 }
 
 .bio {
-  font-size: 0.82rem;
+  font-size: 0.80rem;
   color: #555;
   text-align: center;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
 }
 
 .profile-sidebar-fixed hr {
   border: none;
   border-top: 1px solid #e5e5e5;
-  margin: 15px 0;
+  margin: 12px 0;
 }
 
 /* ============================================
@@ -153,20 +158,20 @@ nav.sidebar,
   list-style: none;
   padding: 0;
   margin: 0;
-  font-size: 0.85rem;
+  font-size: 0.82rem;
   text-align: left;
 }
 
 .profile-links li {
-  margin-bottom: 10px;
+  margin-bottom: 9px;
   color: #444;
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 7px;
 }
 
 .profile-links i {
-  font-size: 1rem;
+  font-size: 0.95rem;
   color: #2c3e50;
   flex-shrink: 0;
 }
@@ -178,6 +183,23 @@ nav.sidebar,
 
 .profile-links a:hover {
   text-decoration: underline;
+}
+
+/* ============================================
+   MAIN CONTENT - sit right next to sidebar
+   ============================================ */
+#quarto-content {
+  margin-left: 0 !important;
+  padding-left: 20px !important;
+  background-color: #ffffff !important;
+}
+
+.quarto-container,
+.container-fluid,
+.container {
+  padding-left: 20px !important;
+  margin-left: 0 !important;
+  max-width: 100% !important;
 }
 
 /* ============================================
@@ -203,7 +225,7 @@ pre, code {
 footer,
 .nav-footer {
   background-color: #ffffff !important;
-  border-top: 1px solid #e5e5e5;
+  border-top: none !important;
 }
 
 /* ============================================
@@ -216,5 +238,11 @@ footer,
 
   body {
     padding-left: 0 !important;
+  }
+
+  .quarto-container,
+  .container-fluid,
+  .container {
+    padding-left: 15px !important;
   }
 }
