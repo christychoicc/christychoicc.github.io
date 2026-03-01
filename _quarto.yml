@@ -2,8 +2,8 @@ project:
   type: website
   output-dir: docs
   render: 
-    - "*.qmd"      # Only render QMD files
-    - "!slides/"   # EXPLICITLY IGNORE this folder for rendering
+    - "*.qmd"
+    - "!slides/"
   resources: 
     - slides/
     - images/
@@ -12,7 +12,7 @@ project:
 website:
   title: "Christy Choi"
   
-  # 1. TOP NAVBAR (Navigation Links)
+  # 1. TOP NAVBAR (Pages)
   navbar:
     collapse: true
     collapse-below: lg
@@ -28,7 +28,7 @@ website:
       - icon: github
         href: "https://github.com/christychoicc"
 
-  # 2. LEFT SIDEBAR (Profile Pane)
+  # 2. LEFT SIDEBAR (Profile info from your Academic Pages style)
   sidebar:
     id: "profile-sidebar"
     collapse-level: 0
@@ -47,13 +47,14 @@ website:
             </div>
           </div>
 
+# 3. MERGED FORMAT (Themes and CSS)
 format:
   html:
     theme:
       light: [cosmo, flatly]
       dark: [cosmo, darkly]
     code-link: true
-    toc: true            # This adds a Table of Contents to the right side
-    css: styles.css      # Custom styling file
+    toc: true
+    css: styles.css
 
 editor: visual
