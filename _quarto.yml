@@ -37,7 +37,7 @@ format:
       light: cosmo
       dark: darkly
     css:
-      - styles.css
+      - style.css
     toc: true
     code-link: true
 
