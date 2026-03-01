@@ -34,7 +34,7 @@ format:
   html:
     theme:
       light: cosmo
-      dark: darkly
+      dark: brand
     css:
       - styles.css
     toc: true
