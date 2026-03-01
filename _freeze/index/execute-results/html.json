@@ -1,0 +1,15 @@
+{
+  "hash": "9d18b02e7d1a130e3cbabd66b5c062fa",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Christy Choi\"\nsubtitle: \"Master's Student at The Bartlett Centre for Advanced Spatial Analysis, UCL\"\nimage: images/profile_pic.jpg\nabout:\n  id: hero-heading\n  template: trestles\n  image-width: 15em\n  image-shape: rounded\n---\n\n\n\n::: {#hero-heading}\nHello! Welcome to my portfolio page.\n\nIf you'd like to read more about my background and works, feel free to navigate through this page!\n\n[<i class=\"bi bi-github\" style=\"font-size: 1.5rem;\"></i>](https://github.com/christychoicc) [<i class=\"bi bi-envelope\" style=\"font-size: 1.5rem;\"></i>](mailto:choichichinchristy@outlook.com)\n\n[Learn more about me →](about.qmd){.about-links .subtitle}\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

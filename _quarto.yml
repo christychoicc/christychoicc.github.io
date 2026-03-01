@@ -9,40 +9,46 @@ project:
     - images/
     - coursework/
 
+execute:
+  freeze: auto
+
 website:
   title: "Christy Choi"
+  page-navigation: true
+  back-to-top-navigation: true
+  open-graph: true
 
   navbar:
-    title: false
+    background: white     # ← makes navbar white
     collapse: true
     collapse-below: lg
-    background: light
-    left:
+    right:
       - text: "Homepage"
         href: index.qmd
+      - text: "About"
+        href: about.qmd
       - text: "Coursework"
         href: coursework.qmd
       - text: "CV"
         href: cv.qmd
-      - text: "About"
-        icon: gear
-        href: about.qmd
-    right:
       - icon: github
         href: "https://github.com/christychoicc"
 
-  # DO NOT use Quarto’s docked sidebar if you inject your own profile sidebar
-  sidebar: false
+  page-footer:
+    left: >-
+      &#169; 2026 Christy Choi
+    right:
+      Made with [Quarto](https://quarto.org)
 
 format:
   html:
     theme:
-      light: [cosmo, flatly]
-      dark: [cosmo, darkly]
-    toc: false
+      light: cosmo
+      dark: darkly
+    css:
+      - styles.css
+      - https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css
+    toc: true
     code-link: true
-    css: styles.css
-    include-before-body: _sidebar-profile.html
-    page-layout: full
 
 editor: visual

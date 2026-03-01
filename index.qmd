@@ -1,5 +1,12 @@
 ---
 title: "Christy Choi"
+subtitle: "Master's Student at The Bartlett Centre for Advanced Spatial Analysis, UCL"
+image: images/profile_pic.jpg
+about:
+  id: hero-heading
+  template: trestles
+  image-width: 15em
+  image-shape: rounded
 ---
 
 ```{r load_packages, message=FALSE, warning=FALSE, include=FALSE}
