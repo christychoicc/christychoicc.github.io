@@ -1,15 +1,63 @@
-/* Fixed profile sidebar */
+/* ============================================
+   GLOBAL - Force white background everywhere
+   ============================================ */
+body {
+  background-color: #ffffff !important;
+  padding-left: 220px !important;
+}
+
+main,
+.content,
+.page-layout-custom,
+#quarto-content,
+#quarto-document-content {
+  background-color: #ffffff !important;
+}
+
+/* ============================================
+   NAVBAR
+   ============================================ */
+.navbar {
+  background-color: #ffffff !important;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #2c3e50 !important;
+}
+
+.nav-link:hover {
+  color: #555 !important;
+}
+
+/* ============================================
+   SIDEBAR - Quarto default sidebar removal
+   ============================================ */
+#quarto-sidebar,
+.sidebar,
+nav.sidebar,
+.quarto-sidebar-toggle,
+#quarto-margin-sidebar {
+  background-color: #ffffff !important;
+  border-right: none !important;
+}
+
+/* ============================================
+   PROFILE SIDEBAR (fixed left panel)
+   ============================================ */
 .profile-sidebar-fixed {
   position: fixed;
-  top: 60px; /* clears the navbar */
+  top: 60px;
   left: 0;
   width: 220px;
   height: calc(100vh - 60px);
   padding: 30px 20px;
-  background: #fff;
+  background: #ffffff !important;
   border-right: 1px solid #e5e5e5;
   overflow-y: auto;
   z-index: 100;
+  text-align: center;
 }
 
 .profile-pic {
@@ -27,6 +75,7 @@
   font-weight: 700;
   text-align: center;
   margin-bottom: 4px;
+  color: #2c3e50;
 }
 
 .pronouns {
@@ -40,17 +89,38 @@
   font-size: 0.82rem;
   color: #555;
   text-align: center;
+  margin-bottom: 15px;
 }
 
+.profile-sidebar-fixed hr {
+  border: none;
+  border-top: 1px solid #e5e5e5;
+  margin: 15px 0;
+}
+
+/* ============================================
+   PROFILE LINKS (location, email etc.)
+   ============================================ */
 .profile-links {
   list-style: none;
   padding: 0;
+  margin: 0;
   font-size: 0.85rem;
+  text-align: left;
 }
 
 .profile-links li {
-  margin-bottom: 8px;
+  margin-bottom: 10px;
   color: #444;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.profile-links i {
+  font-size: 1rem;
+  color: #2c3e50;
+  flex-shrink: 0;
 }
 
 .profile-links a {
@@ -58,12 +128,59 @@
   text-decoration: none;
 }
 
-/* Push main content to the right of the sidebar */
-body {
-  padding-left: 220px !important;
+.profile-links a:hover {
+  text-decoration: underline;
 }
 
-/* Make sure quarto's main content area respects the sidebar */
+/* ============================================
+   MAIN CONTENT AREA
+   ============================================ */
 #quarto-content {
   margin-left: 0 !important;
+  background-color: #ffffff !important;
+}
+
+.quarto-title,
+.quarto-title-meta,
+article {
+  background-color: #ffffff !important;
+}
+
+/* ============================================
+   TOC (table of contents) - white background
+   ============================================ */
+#TOC,
+.toc-content,
+nav#TOC {
+  background-color: #ffffff !important;
+}
+
+/* ============================================
+   CODE BLOCKS
+   ============================================ */
+pre, code {
+  background-color: #f8f9fa !important;
+  border-radius: 4px;
+}
+
+/* ============================================
+   FOOTER
+   ============================================ */
+footer,
+.nav-footer {
+  background-color: #ffffff !important;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* ============================================
+   RESPONSIVE - hide fixed sidebar on mobile
+   ============================================ */
+@media (max-width: 768px) {
+  .profile-sidebar-fixed {
+    display: none;
+  }
+
+  body {
+    padding-left: 0 !important;
+  }
 }

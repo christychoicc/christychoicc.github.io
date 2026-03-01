@@ -11,8 +11,8 @@ project:
 
 website:
   title: "Christy Choi"
-  
   navbar:
+    title: false  # ← add this line
     collapse: true
     collapse-below: lg
     background: light
@@ -23,7 +23,8 @@ website:
         href: coursework.qmd
       - text: "CV"
         href: cv.qmd
-      - icon: gear
+      - text: "About"
+        icon: gear
         href: about.qmd
     right:
       - icon: github
