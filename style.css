@@ -1,34 +1,14 @@
-/* Keep navbar height/alignment identical across modes */
-.navbar {
-  min-height: 64px;            /* consistent height */
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  box-shadow: none !important;
-}
-
-/* LIGHT MODE: white bar + grey line */
-html[data-bs-theme="light"] .navbar,
-html[data-bs-theme="light"] header {
-  background: #ffffff !important;
-  border-bottom: 1px solid #e5e5e5 !important;   /* grey line */
-}
-
-/* DARK MODE: dark bar + white line */
+/* Remove Darkly's blue navbar: make it neutral dark */
 html[data-bs-theme="dark"] .navbar,
 html[data-bs-theme="dark"] header {
-  background: var(--bs-body-bg) !important;      /* matches dark theme */
-  border-bottom: 1px solid #ffffff !important;   /* white line */
+  background-color: #1e1e1e !important;  /* neutral dark */
+  background-image: none !important;
 }
 
-/* Ensure nav text/icons are readable in dark mode */
+/* Make sure navbar text/icons stay readable in dark mode */
 html[data-bs-theme="dark"] .navbar .nav-link,
 html[data-bs-theme="dark"] .navbar .navbar-brand,
-html[data-bs-theme="dark"] .navbar .navbar-toggler,
-html[data-bs-theme="dark"] .navbar a {
+html[data-bs-theme="dark"] .navbar a,
+html[data-bs-theme="dark"] .navbar .navbar-toggler {
   color: #ffffff !important;
-}
-
-/* Optional: hover state in dark mode */
-html[data-bs-theme="dark"] .navbar .nav-link:hover {
-  opacity: 0.85;
 }
