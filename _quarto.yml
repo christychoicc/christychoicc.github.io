@@ -2,17 +2,17 @@ project:
   type: website
   output-dir: docs
   render: 
-  - "*.qmd"      # Only render QMD files
-  - "!slides/"   # EXPLICITLY IGNORE this folder for rendering
+    - "*.qmd"      # Only render QMD files
+    - "!slides/"   # EXPLICITLY IGNORE this folder for rendering
   resources: 
-  - slides/
-  - images/
-  - coursework/
+    - slides/
+    - images/
+    - coursework/
 
 website:
   title: "Christy Choi"
   
-  # 1. TOP NAVBAR (Keep your navigation here)
+  # 1. TOP NAVBAR (Navigation Links)
   navbar:
     collapse: true
     collapse-below: lg
@@ -28,7 +28,7 @@ website:
       - icon: github
         href: "https://github.com/christychoicc"
 
-  # 2. LEFT SIDEBAR (Use this only for your Profile info)
+  # 2. LEFT SIDEBAR (Profile Pane)
   sidebar:
     id: "profile-sidebar"
     collapse-level: 0
@@ -36,7 +36,7 @@ website:
     contents:
       - text: |
           <div class="sidebar-profile" style="text-align: center; padding: 20px 10px;">
-            <img src="images/profile_pic.jpg" style="width: 150px; border-radius: 50%; margin-bottom: 15px; border: 2px solid #2c3e50;">
+            <img src="images/profile_pic.jpg" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 15px; border: 2px solid #2c3e50;">
             <h3 style="font-size: 1.2rem; margin-bottom: 5px;">Chi Chin Christy Choi</h3>
             <p style="font-size: 0.85rem; color: #666; margin-bottom: 20px;">she/her<br>MSc Student, UCL CASE</p>
             <hr>
@@ -50,26 +50,10 @@ website:
 format:
   html:
     theme:
-      #- cosmo
-      #- brand
       light: [cosmo, flatly]
       dark: [cosmo, darkly]
     code-link: true
+    toc: true            # This adds a Table of Contents to the right side
+    css: styles.css      # Custom styling file
 
 editor: visual
-
-
-
-
-format:
-  html:
-    theme:
-      #- cosmo
-      #- brand
-      light: [cosmo, flatly]
-      dark: [cosmo, darkly]
-    code-link: true
-
-editor: visual
-
-
