@@ -1,25 +1,29 @@
 /* ============================================
-   GLOBAL - Force white background everywhere
+   NUCLEAR WHITE - override everything grey
    ============================================ */
-body {
+* {
+  --bs-body-bg: #ffffff !important;
+  --bs-light: #ffffff !important;
+}
+
+body,
+html {
   background-color: #ffffff !important;
   padding-left: 220px !important;
 }
 
-main,
-.content,
-.page-layout-custom,
-#quarto-content,
-#quarto-document-content {
-  background-color: #ffffff !important;
-}
-
 /* ============================================
-   NAVBAR
+   NAVBAR - force white
    ============================================ */
-.navbar {
+.navbar,
+.navbar-light,
+nav.navbar,
+header,
+header.quarto-title-block {
   background-color: #ffffff !important;
-  border-bottom: 1px solid #e5e5e5;
+  background: #ffffff !important;
+  border-bottom: 1px solid #e5e5e5 !important;
+  box-shadow: none !important;
 }
 
 .navbar-brand,
@@ -32,19 +36,63 @@ main,
 }
 
 /* ============================================
-   SIDEBAR - Quarto default sidebar removal
+   KILL THE GREY BAR / SECONDARY NAV
    ============================================ */
 #quarto-sidebar,
-.sidebar,
+#quarto-sidebar-glass,
+.sidebar-navigation,
+.quarto-secondary-nav,
+.quarto-secondary-nav-title,
+div.quarto-secondary-nav,
+.quarto-page-breadcrumbs,
+.breadcrumb,
+nav[aria-label="breadcrumb"] {
+  background-color: #ffffff !important;
+  background: #ffffff !important;
+  border: none !important;
+  box-shadow: none !important;
+  display: none !important;
+}
+
+/* ============================================
+   ALL PANELS AND CONTAINERS WHITE
+   ============================================ */
+.panel-grid,
+.card,
+.tab-content,
+#quarto-content,
+#quarto-document-content,
+.page-columns,
+.page-full,
+main.content,
+main,
+div#quarto-content,
+.content,
+article,
+.quarto-title,
+.quarto-title-meta {
+  background-color: #ffffff !important;
+}
+
+/* Remove Bootstrap grey utilities */
+.bg-light,
+.bg-body {
+  background-color: #ffffff !important;
+}
+
+/* ============================================
+   QUARTO SIDEBAR (default) - white
+   ============================================ */
 nav.sidebar,
 .quarto-sidebar-toggle,
-#quarto-margin-sidebar {
+#quarto-margin-sidebar,
+#quarto-sidebar {
   background-color: #ffffff !important;
   border-right: none !important;
 }
 
 /* ============================================
-   PROFILE SIDEBAR (fixed left panel)
+   PROFILE SIDEBAR (your fixed left panel)
    ============================================ */
 .profile-sidebar-fixed {
   position: fixed;
@@ -99,7 +147,7 @@ nav.sidebar,
 }
 
 /* ============================================
-   PROFILE LINKS (location, email etc.)
+   PROFILE LINKS
    ============================================ */
 .profile-links {
   list-style: none;
@@ -133,21 +181,7 @@ nav.sidebar,
 }
 
 /* ============================================
-   MAIN CONTENT AREA
-   ============================================ */
-#quarto-content {
-  margin-left: 0 !important;
-  background-color: #ffffff !important;
-}
-
-.quarto-title,
-.quarto-title-meta,
-article {
-  background-color: #ffffff !important;
-}
-
-/* ============================================
-   TOC (table of contents) - white background
+   TOC - white background
    ============================================ */
 #TOC,
 .toc-content,
@@ -173,7 +207,7 @@ footer,
 }
 
 /* ============================================
-   RESPONSIVE - hide fixed sidebar on mobile
+   RESPONSIVE - hide sidebar on mobile
    ============================================ */
 @media (max-width: 768px) {
   .profile-sidebar-fixed {
