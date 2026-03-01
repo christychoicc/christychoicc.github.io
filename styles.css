@@ -14,7 +14,7 @@ html {
 }
 
 /* ============================================
-   NAVBAR - force white, no border
+   NAVBAR - force white, no border, no line
    ============================================ */
 .navbar,
 .navbar-light,
@@ -24,6 +24,7 @@ header.quarto-title-block {
   background-color: #ffffff !important;
   background: #ffffff !important;
   border-bottom: none !important;
+  border: none !important;
   box-shadow: none !important;
 }
 
@@ -37,7 +38,21 @@ header.quarto-title-block {
 }
 
 /* ============================================
-   KILL THE GREY BAR / SECONDARY NAV
+   KILL ALL GREY LINES AND BORDERS EVERYWHERE
+   ============================================ */
+*,
+*::before,
+*::after {
+  border-color: transparent !important;
+}
+
+/* But keep profile hr subtle */
+.profile-sidebar-fixed hr {
+  border-top-color: #e5e5e5 !important;
+}
+
+/* ============================================
+   KILL THE GREY BAR / SECONDARY NAV / GAP
    ============================================ */
 #quarto-sidebar,
 #quarto-sidebar-glass,
@@ -47,12 +62,29 @@ header.quarto-title-block {
 div.quarto-secondary-nav,
 .quarto-page-breadcrumbs,
 .breadcrumb,
-nav[aria-label="breadcrumb"] {
-  background-color: #ffffff !important;
-  background: #ffffff !important;
-  border: none !important;
-  box-shadow: none !important;
+nav[aria-label="breadcrumb"],
+.quarto-title-breadcrumbs {
   display: none !important;
+}
+
+/* ============================================
+   REMOVE THE VERTICAL DIVIDER LINE
+   ============================================ */
+.page-columns,
+.page-layout-article,
+.page-layout-custom,
+#quarto-content > * {
+  border: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  outline: none !important;
+}
+
+/* Remove column gap that creates white space */
+.page-columns {
+  grid-gap: 0 !important;
+  gap: 0 !important;
+  column-gap: 0 !important;
 }
 
 /* ============================================
@@ -75,6 +107,7 @@ article,
   background-color: #ffffff !important;
   margin-left: 0 !important;
   padding-left: 0 !important;
+  border: none !important;
 }
 
 /* Remove Bootstrap grey utilities */
@@ -84,15 +117,30 @@ article,
 }
 
 /* ============================================
-   QUARTO DEFAULT SIDEBAR - nuke it
+   QUARTO DEFAULT SIDEBAR - nuke it completely
    ============================================ */
 nav.sidebar,
 .quarto-sidebar-toggle,
 #quarto-margin-sidebar,
 #quarto-sidebar {
-  background-color: #ffffff !important;
-  border-right: none !important;
   display: none !important;
+}
+
+/* ============================================
+   REMOVE TOP WHITE GAP
+   ============================================ */
+#quarto-content {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+main {
+  margin-top: 0 !important;
+  padding-top: 10px !important;
+}
+
+body > * {
+  margin-top: 0 !important;
 }
 
 /* ============================================
@@ -106,8 +154,9 @@ nav.sidebar,
   height: calc(100vh - 55px);
   padding: 25px 15px;
   background: #ffffff !important;
-  border-right: none !important;
   border: none !important;
+  border-right: none !important;
+  outline: none !important;
   overflow-y: auto;
   z-index: 100;
   text-align: center;
@@ -120,7 +169,7 @@ nav.sidebar,
   object-fit: cover;
   display: block;
   margin: 0 auto 12px;
-  border: 2px solid #2c3e50;
+  border: 2px solid #2c3e50 !important;
 }
 
 .profile-sidebar-fixed h3 {
@@ -146,8 +195,8 @@ nav.sidebar,
 }
 
 .profile-sidebar-fixed hr {
-  border: none;
-  border-top: 1px solid #e5e5e5;
+  border: none !important;
+  border-top: 1px solid #e5e5e5 !important;
   margin: 12px 0;
 }
 
@@ -192,6 +241,7 @@ nav.sidebar,
   margin-left: 0 !important;
   padding-left: 20px !important;
   background-color: #ffffff !important;
+  border: none !important;
 }
 
 .quarto-container,
@@ -209,6 +259,7 @@ nav.sidebar,
 .toc-content,
 nav#TOC {
   background-color: #ffffff !important;
+  border: none !important;
 }
 
 /* ============================================
@@ -225,7 +276,7 @@ pre, code {
 footer,
 .nav-footer {
   background-color: #ffffff !important;
-  border-top: none !important;
+  border: none !important;
 }
 
 /* ============================================
