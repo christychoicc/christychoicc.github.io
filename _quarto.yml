@@ -9,9 +9,6 @@ project:
     - images/
     - coursework/
 
-execute:
-  freeze: auto
-
 website:
   title: "Christy Choi"
   page-navigation: true
@@ -19,7 +16,6 @@ website:
   open-graph: true
 
   navbar:
-    background: white     # ← makes navbar white
     collapse: true
     collapse-below: lg
     right:
@@ -33,12 +29,6 @@ website:
         href: cv.qmd
       - icon: github
         href: "https://github.com/christychoicc"
-
-  page-footer:
-    left: >-
-      &#169; 2026 Christy Choi
-    right:
-      Made with [Quarto](https://quarto.org)
 
 format:
   html:

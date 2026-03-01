@@ -1,0 +1,15 @@
+/* Navbar: white in light mode */
+html[data-bs-theme="light"] .navbar,
+html[data-bs-theme="light"] header {
+  background: #ffffff !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+/* Navbar: use dark theme background in dark mode */
+html[data-bs-theme="dark"] .navbar,
+html[data-bs-theme="dark"] header {
+  background: var(--bs-body-bg) !important;
+  box-shadow: none !important;
+  border: none !important;
+}
