@@ -1,0 +1,45 @@
+/* Matches the Academic Pages Sidebar exactly */
+#quarto-sidebar {
+  background-color: #ffffff; /* Clean white background like the original */
+  border-right: 1px solid #f2f3f3; /* Very subtle light border */
+  padding-top: 30px;
+  width: 260px;
+}
+
+/* Profile Image Styling */
+.sidebar-profile img {
+  display: block;
+  margin: 0 auto 15px auto;
+  border: 1px solid #f2f3f3; /* Light border around the circle */
+  transition: all 0.2s ease-in-out;
+}
+
+/* Sidebar Text and Name */
+.sidebar-profile h3 {
+  color: #494e52; /* Dark slate grey for the name */
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-weight: bold;
+}
+
+.sidebar-profile p {
+  color: #606569; /* Lighter grey for the bio/pronouns */
+  font-size: 0.9em;
+}
+
+/* Social Icons - No more blue! */
+.sidebar-profile i {
+  color: #494e52; /* Matches the text color precisely */
+  margin: 0 8px;
+  font-size: 1.25rem;
+}
+
+/* Only change color slightly on hover to look professional */
+.sidebar-profile i:hover {
+  color: #000000; 
+}
+
+/* Clean up the Horizontal Rule */
+.sidebar-profile hr {
+  border-top: 1px solid #f2f3f3;
+  margin: 20px 0;
+}
