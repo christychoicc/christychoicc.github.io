@@ -1,45 +1,69 @@
-/* Matches the Academic Pages Sidebar exactly */
-#quarto-sidebar {
-  background-color: #ffffff; /* Clean white background like the original */
-  border-right: 1px solid #f2f3f3; /* Very subtle light border */
-  padding-top: 30px;
-  width: 260px;
+/* Fixed profile sidebar */
+.profile-sidebar-fixed {
+  position: fixed;
+  top: 60px; /* clears the navbar */
+  left: 0;
+  width: 220px;
+  height: calc(100vh - 60px);
+  padding: 30px 20px;
+  background: #fff;
+  border-right: 1px solid #e5e5e5;
+  overflow-y: auto;
+  z-index: 100;
 }
 
-/* Profile Image Styling */
-.sidebar-profile img {
+.profile-pic {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
   display: block;
-  margin: 0 auto 15px auto;
-  border: 1px solid #f2f3f3; /* Light border around the circle */
-  transition: all 0.2s ease-in-out;
+  margin: 0 auto 15px;
+  border: 2px solid #2c3e50;
 }
 
-/* Sidebar Text and Name */
-.sidebar-profile h3 {
-  color: #494e52; /* Dark slate grey for the name */
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-  font-weight: bold;
+.profile-sidebar-fixed h3 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 4px;
 }
 
-.sidebar-profile p {
-  color: #606569; /* Lighter grey for the bio/pronouns */
-  font-size: 0.9em;
+.pronouns {
+  text-align: center;
+  color: #888;
+  font-size: 0.85rem;
+  margin-bottom: 8px;
 }
 
-/* Social Icons - No more blue! */
-.sidebar-profile i {
-  color: #494e52; /* Matches the text color precisely */
-  margin: 0 8px;
-  font-size: 1.25rem;
+.bio {
+  font-size: 0.82rem;
+  color: #555;
+  text-align: center;
 }
 
-/* Only change color slightly on hover to look professional */
-.sidebar-profile i:hover {
-  color: #000000; 
+.profile-links {
+  list-style: none;
+  padding: 0;
+  font-size: 0.85rem;
 }
 
-/* Clean up the Horizontal Rule */
-.sidebar-profile hr {
-  border-top: 1px solid #f2f3f3;
-  margin: 20px 0;
+.profile-links li {
+  margin-bottom: 8px;
+  color: #444;
+}
+
+.profile-links a {
+  color: #2c7be5;
+  text-decoration: none;
+}
+
+/* Push main content to the right of the sidebar */
+body {
+  padding-left: 220px !important;
+}
+
+/* Make sure quarto's main content area respects the sidebar */
+#quarto-content {
+  margin-left: 0 !important;
 }

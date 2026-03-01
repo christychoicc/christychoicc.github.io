@@ -12,49 +12,38 @@ project:
 website:
   title: "Christy Choi"
   
-  # 1. TOP NAVBAR (Pages)
   navbar:
     collapse: true
     collapse-below: lg
     background: light
     left: 
-      - text: "About"
-        href: about.qmd
+      - text: "Homepage"
+        href: index.qmd
       - text: "Coursework"
         href: coursework.qmd
       - text: "CV"
         href: cv.qmd
+      - icon: gear
+        href: about.qmd
     right:
       - icon: github
         href: "https://github.com/christychoicc"
 
-  # 2. LEFT SIDEBAR (Profile info from your Academic Pages style)
   sidebar:
-    id: "profile-sidebar"
-    collapse-level: 0
+    style: "docked"
+    background: light
     search: false
     contents:
-      - text: |
-          <div class="sidebar-profile" style="text-align: center; padding: 20px 10px;">
-            <img src="images/profile_pic.jpg" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 15px; border: 2px solid #2c3e50;">
-            <h3 style="font-size: 1.2rem; margin-bottom: 5px;">Chi Chin Christy Choi</h3>
-            <p style="font-size: 0.85rem; color: #666; margin-bottom: 20px;">she/her<br>MSc Student, UCL CASE</p>
-            <hr>
-            <div style="font-size: 1.2rem;">
-              <a href="https://github.com/christychoicc" style="margin: 0 5px;"><i class="bi bi-github"></i></a>
-              <a href="mailto:choichichinchristy@outlook.com" style="margin: 0 5px;"><i class="bi bi-envelope"></i></a>
-              <a href="https://linkedin.com/in/choichichinchristy" style="margin: 0 5px;"><i class="bi bi-linkedin"></i></a>
-            </div>
-          </div>
+      - text: "---"
 
-# 3. MERGED FORMAT (Themes and CSS)
 format:
   html:
     theme:
       light: [cosmo, flatly]
       dark: [cosmo, darkly]
     code-link: true
-    toc: true
+    toc: false
     css: styles.css
+    include-before-body: _sidebar-profile.html
 
 editor: visual
