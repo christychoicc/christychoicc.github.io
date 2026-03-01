@@ -1,12 +1,5 @@
 ---
 title: "Christy Choi"
-subtitle: "Master's Student at The Bartlett Centre for Advanced Spatial Analysis, UCL"
-image: images/profile_pic.jpg
-about:
-  id: hero-heading
-  template: trestles
-  image-width: 15em
-  image-shape: rounded
 ---
 
 ```{r load_packages, message=FALSE, warning=FALSE, include=FALSE}
@@ -16,7 +9,7 @@ library(fontawesome)
 ::: {#hero-heading}
 Hello! Welcome to my portfolio page.
 
-If you'd like to read more about my background and works, feel free to navigate through this page! 
+If you'd like to read more about my background and works, feel free to navigate through this page!
 
 [<i class="bi bi-github" style="font-size: 1.5rem;"></i>](https://github.com/christychoicc) [<i class="bi bi-envelope" style="font-size: 1.5rem;"></i>](mailto:choichichinchristy@outlook.com)
 

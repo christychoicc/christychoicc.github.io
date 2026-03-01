@@ -31,8 +31,7 @@ website:
       - icon: github
         href: "https://github.com/christychoicc"
 
-  # IMPORTANT: do NOT use Quarto docked sidebar if you're injecting your own profile sidebar
-  # (this is what was creating the huge empty gap)
+  # DO NOT use Quarto’s docked sidebar if you inject your own profile sidebar
   sidebar: false
 
 format:
