@@ -1,22 +1,23 @@
 project:
   type: website
   output-dir: docs
-  render: 
+  render:
     - "*.qmd"
     - "!slides/"
-  resources: 
+  resources:
     - slides/
     - images/
     - coursework/
 
 website:
   title: "Christy Choi"
+
   navbar:
-    title: false  # ← add this line
+    title: false
     collapse: true
     collapse-below: lg
     background: light
-    left: 
+    left:
       - text: "Homepage"
         href: index.qmd
       - text: "Coursework"
@@ -30,21 +31,19 @@ website:
       - icon: github
         href: "https://github.com/christychoicc"
 
-  sidebar:
-    style: "docked"
-    background: light
-    search: false
-    contents:
-      - text: "---"
+  # IMPORTANT: do NOT use Quarto docked sidebar if you're injecting your own profile sidebar
+  # (this is what was creating the huge empty gap)
+  sidebar: false
 
 format:
   html:
     theme:
       light: [cosmo, flatly]
       dark: [cosmo, darkly]
-    code-link: true
     toc: false
+    code-link: true
     css: styles.css
     include-before-body: _sidebar-profile.html
+    page-layout: full
 
 editor: visual
