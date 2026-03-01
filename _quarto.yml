@@ -11,12 +11,12 @@ project:
 
 website:
   title: "Christy Choi"
+  
+  # 1. TOP NAVBAR (Keep your navigation here)
   navbar:
     collapse: true
     collapse-below: lg
     background: light
-    search: true
-    reader-mode: true
     left: 
       - text: "About"
         href: about.qmd
@@ -27,6 +27,39 @@ website:
     right:
       - icon: github
         href: "https://github.com/christychoicc"
+
+  # 2. LEFT SIDEBAR (Use this only for your Profile info)
+  sidebar:
+    id: "profile-sidebar"
+    collapse-level: 0
+    search: false
+    contents:
+      - text: |
+          <div class="sidebar-profile" style="text-align: center; padding: 20px 10px;">
+            <img src="images/profile_pic.jpg" style="width: 150px; border-radius: 50%; margin-bottom: 15px; border: 2px solid #2c3e50;">
+            <h3 style="font-size: 1.2rem; margin-bottom: 5px;">Chi Chin Christy Choi</h3>
+            <p style="font-size: 0.85rem; color: #666; margin-bottom: 20px;">she/her<br>MSc Student, UCL CASE</p>
+            <hr>
+            <div style="font-size: 1.2rem;">
+              <a href="https://github.com/christychoicc" style="margin: 0 5px;"><i class="bi bi-github"></i></a>
+              <a href="mailto:choichichinchristy@outlook.com" style="margin: 0 5px;"><i class="bi bi-envelope"></i></a>
+              <a href="https://linkedin.com/in/choichichinchristy" style="margin: 0 5px;"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+format:
+  html:
+    theme:
+      #- cosmo
+      #- brand
+      light: [cosmo, flatly]
+      dark: [cosmo, darkly]
+    code-link: true
+
+editor: visual
+
+
+
 
 format:
   html:
