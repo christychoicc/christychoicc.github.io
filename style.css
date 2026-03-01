@@ -1,14 +1,38 @@
-/* Remove Darkly's blue navbar: make it neutral dark */
-html[data-bs-theme="dark"] .navbar,
-html[data-bs-theme="dark"] header {
-  background-color: #1e1e1e !important;  /* neutral dark */
+/* Consistent navbar height/padding in ALL modes */
+.navbar {
+  --bs-navbar-padding-y: 0.55rem;
+  --bs-navbar-padding-x: 1rem;
+  --bs-navbar-brand-padding-y: 0rem;
+  --bs-navbar-nav-link-padding-x: 0.75rem;
+
+  box-shadow: none !important;
   background-image: none !important;
 }
 
-/* Make sure navbar text/icons stay readable in dark mode */
+/* Light mode: white navbar */
+html[data-bs-theme="light"] .navbar,
+html[data-bs-theme="light"] header .navbar {
+  background-color: #ffffff !important;
+}
+
+/* Dark mode: neutral dark navbar (kills the blue) */
+html[data-bs-theme="dark"] .navbar,
+html[data-bs-theme="dark"] header .navbar {
+  background-color: #1e1e1e !important;
+  background-image: none !important;
+}
+
+/* Dark mode: readable text/icons */
 html[data-bs-theme="dark"] .navbar .nav-link,
 html[data-bs-theme="dark"] .navbar .navbar-brand,
-html[data-bs-theme="dark"] .navbar a,
-html[data-bs-theme="dark"] .navbar .navbar-toggler {
+html[data-bs-theme="dark"] .navbar a {
   color: #ffffff !important;
+}
+
+/* Dark mode: make the hamburger icon visible (mobile) */
+html[data-bs-theme="dark"] .navbar .navbar-toggler {
+  border-color: rgba(255,255,255,0.35) !important;
+}
+html[data-bs-theme="dark"] .navbar .navbar-toggler-icon {
+  filter: invert(1) !important;
 }

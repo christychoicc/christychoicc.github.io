@@ -5,6 +5,7 @@ project:
     - "*.qmd"
     - "!slides/"
   resources:
+    - .nojekyll
     - slides/
     - images/
     - coursework/
