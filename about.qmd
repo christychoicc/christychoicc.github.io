@@ -1,4 +1,21 @@
 ---
-title: "About"
+title: "About me..."
 ---
 
+I am currently a Master's student at the Bartlett Centre for Advanced Spatial Analysis. I hold a Bachelor's degree in Planning and Real Estate from the University of Manchester. I am experienced in cleaning and analysing complex datasets, producing clear reporting, and translating evidence into practical recommendations. I am committed to applying digital analytics to navigate complexity and support well-informed, inclusive, long-term solutions through evidence-based decision-making.
+
+## Technical Abilities
+
+**Languages**: Python, SQL, R
+
+**Tools**: Git and GitHub, ArcGIS Pro, QGIS, SNAP, Google Earth Engine, Adobe Illustrator, Photoshop, Lightroom, Microsoft Word, Powerpoint, Excel
+
+[View my GitHub →](https://github.com/christychoicc)
+
+## Languages
+
+-   Cantonese, English, Mandarin, German (Intermediate Level)
+
+## Interests and Hobbies 
+
+-   Tennis, Running, Hiking, Pilates, Painting, Baking, Travelling
