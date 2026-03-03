@@ -39,14 +39,14 @@
     "href": "about.html",
     "title": "About me…",
     "section": "",
-    "text": "I am currently a Master’s student at the Bartlett Centre for Advanced Spatial Analysis. I hold a Bachelor’s degree in Planning and Real Estate from the University of Manchester. I am experienced in cleaning and analysing complex datasets, producing clear reporting, and translating evidence into practical recommendations. I am committed to applying digital analytics to navigate complexity and support well-informed, inclusive, long-term solutions through evidence-based decision-making.\nView my CV and Coursework →"
+    "text": "I am currently a Master’s student at the Bartlett Centre for Advanced Spatial Analysis. I hold a Bachelor’s degree in Planning and Real Estate from the University of Manchester. I am experienced in cleaning and analysing complex data sets, producing clear reporting, and translating evidence into practical recommendations. I am committed to applying digital analytics to navigate complexity and support well-informed, inclusive, long-term solutions through evidence-based decision-making.\nView my CV and Coursework →"
   },
   {
-    "objectID": "about.html#technical-abilities",
-    "href": "about.html#technical-abilities",
+    "objectID": "about.html#technical-proficiency",
+    "href": "about.html#technical-proficiency",
     "title": "About me…",
-    "section": "Technical Abilities",
-    "text": "Technical Abilities\nLanguages: Python, SQL, R\nTools: Git and GitHub, ArcGIS Pro, QGIS, SNAP, Google Earth Engine, Adobe Illustrator, Photoshop, Lightroom, Microsoft Word, Powerpoint, Excel\nView my GitHub →"
+    "section": "Technical Proficiency",
+    "text": "Technical Proficiency\nLanguages: Python, SQL, R\nTools: Git and GitHub, ArcGIS Pro, QGIS, SNAP, Google Earth Engine, NetLogo, Adobe Illustrator, Photoshop, Lightroom, Microsoft Word, Powerpoint, Excel\nView my GitHub →"
   },
   {
     "objectID": "about.html#languages",

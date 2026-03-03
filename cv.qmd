@@ -2,11 +2,11 @@
 title: "Curriculum Vitae"
 ---
 
-## Education 
+## Education
 
 [Browse my coursework →](coursework.qmd)
 
-### MSc, Urban Spatial Science,  University College London (UCL), The Bartlett Faculty of the Built Environment, The Bartlett Centre for Advanced Spatial Analysis, U.K. \| 2025 - 2026 
+### MSc, Urban Spatial Science, University College London (UCL), The Bartlett Faculty of the Built Environment, The Bartlett Centre for Advanced Spatial Analysis, U.K. \| 2025 - 2026
 
 -   Royal Geographical Society (with IBG) Accredited
 
@@ -14,7 +14,7 @@ title: "Curriculum Vitae"
 
     Urban Systems Theory; Geographic Information Systems and Science; Quantitative Methods; Foundations of Spatial Data Science; Data Science for Spatial Systems; Agent-based Modelling for Spatial Systems; Building Spatial Applications with Big Data; Remotely Sensing Cities and Environments; Dissertation.
 
-### BSc Planning and Real Estate, University of Manchester, U.K. \| 2022 - 2025 
+### BSc Planning and Real Estate, University of Manchester, U.K. \| 2022 - 2025
 
 -   RICS Accredited, RTPI Spatially Accredited
 
@@ -44,31 +44,31 @@ A-LEVELS & GCSES \| 2022 \| St, Mary's School, Calne, U.K.
 
 -   University of Oxford German Olympiad Award 2019 – Highly Commended
 
-## Experience 
+## Experience
 
-### RTPI Student Member \| Royal Town Planning Institute (RTPI) \| September 2022 - 2025 
+### RTPI Student Member \| Royal Town Planning Institute (RTPI) \| September 2022 - 2025
 
-### Operation Assistant Summer Internship \| Pacific Infrastructure Limited, Hong Kong \| July 2023 - August 2023 
+### Operation Assistant Summer Internship \| Pacific Infrastructure Limited, Hong Kong \| July 2023 - August 2023
 
 -   Assisted in the transition prior to the HKeToll system (smart mobility initiative for automated toll payments), monitoring CCTV footages for evasions, tracing vehicle owners and preparation of formal correspondence to ensure regulatory compliances.
 
-### Retail Sales Specialist Part-Time \| Croyaki Tea Manchester, U.K. \| May 2023 – June 2023 
+### Retail Sales Specialist Part-Time \| Croyaki Tea Manchester, U.K. \| May 2023 – June 2023
 
 -   Delivered high quality customer services in managing transactions, assisting beverage production.
 
-### Landscape Architecture Summer Trainee \| SANFIELD (Management) LTD. Sun Hung Kai Properties, Hong Kong\| July 2021 – August 2021 
+### Landscape Architecture Summer Trainee \| SANFIELD (Management) LTD. Sun Hung Kai Properties, Hong Kong\| July 2021 – August 2021
 
 -   Assisted in material selection, planning and execution of landscape projects, on site showroom preparation for Central Peak property development.
 
 -   Conducted a design project for a public park redevelopment (internship department assessment), translation of design concepts into practical solutions, using Auto CAD, Sketchup and Photoshop.
 
-### Design Assistant Internship \| GYSO PEARLS & JEWELLERY LTD, Hong Kong \| July 2020 – August 2020 
+### Design Assistant Internship \| GYSO PEARLS & JEWELLERY LTD, Hong Kong \| July 2020 – August 2020
 
 -   Managed showroom materials, photoshop edits for marketing visuals. Skills & Achievements
 
 ## Skills
 
-### Technical 
+### Technical
 
 -   Microsoft Word, PowerPoint, Excel; Adobe Photoshop, Lightroom, Illustrator
 
