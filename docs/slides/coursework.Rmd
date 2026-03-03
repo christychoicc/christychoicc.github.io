@@ -18,6 +18,7 @@ output:
 ---
 ```{r setup, include=FALSE}
 library(RefManageR)
+library(here)
 BibOptions(check.entries = FALSE,
            bib.style = "authoryear",
            cite.style = "authoryear",
@@ -25,7 +26,7 @@ BibOptions(check.entries = FALSE,
            hyperlink = TRUE,
            dashed = FALSE,
            no.print.fields=c("doi", "url", "urldate", "issn"))
-myBib <- ReadBib("../references.bib", check = FALSE)
+myBib <- ReadBib(here::here("references.bib"), check = FALSE)
 ```
 
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
@@ -249,7 +250,7 @@ Figure 8: Car Ownership and Households
 .pull-left[
 ```{r, echo=FALSE, out.width='100%', fig.align='center'}
 # Picture: Train Bus Locations
-knitr::include_graphics("../images/trainbus_locations.png")
+knitr::include_graphics("../images/trainbus.png")
 ```
 <p style="font-size: 0.6em; text-align: center; margin-top: 0;">
 Figure 9: Train and Bus Station Locations   
@@ -258,7 +259,7 @@ Figure 9: Train and Bus Station Locations
 .pull-right[
 ```{r, echo=FALSE, out.width='100%', fig.align='center'}
 # Picture: Travel to work by car or van
-knitr::include_graphics("../images/carorvan_work.png")
+knitr::include_graphics("../images/carorvan_towork.png")
 ```
 <p style="font-size: 0.6em; text-align: center; margin-top: 0;">
 Figure 10: Travel to work: Car or Vans   
