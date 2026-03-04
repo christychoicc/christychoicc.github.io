@@ -12,9 +12,9 @@ title: "Curriculum Vitae"
 
 -   Modules include specialisation in Big Data, Urban Modelling and Simulation pathways:
 
-    Urban Systems Theory; Geographic Information Systems and Science; Quantitative Methods; Foundations of Spatial Data Science; Data Science for Spatial Systems; Agent-based Modelling for Spatial Systems; Building Spatial Applications with Big Data; Remotely Sensing Cities and Environments; Dissertation.
+    Urban Systems Theory; Geographic Information Systems and Science (70.95); Quantitative Methods (72.5); Foundations of Spatial Data Science; Data Science for Spatial Systems; Agent-based Modelling for Spatial Systems; Building Spatial Applications with Big Data; Remotely Sensing Cities and Environments; Dissertation.
 
-### BSc Planning and Real Estate, University of Manchester, U.K. \| 2022 - 2025
+### BSc Planning and Real Estate, University of Manchester, U.K. \|s 2022 - 2025
 
 -   RICS Accredited, RTPI Spatially Accredited
 
