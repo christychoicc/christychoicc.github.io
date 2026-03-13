@@ -72,7 +72,7 @@ A-LEVELS & GCSES \| 2022 \| St, Mary's School, Calne, U.K.
 
 -   Microsoft Word, PowerPoint, Excel; Adobe Photoshop, Lightroom, Illustrator
 
--   Python; SQL; R and R Studio
+-   Python; SQL; R and R Studio; JavaScript
 
 -   QGIS; ArcGIS Pro; NetLOGO; SNAP; Google Earth Engine
 

@@ -8,7 +8,7 @@ View my [CV](cv.qmd) and [Coursework](coursework.qmd) →
 
 ## Technical Proficiency
 
-**Languages**: Python, SQL, R
+**Languages**: Python, SQL, R, JavaScript
 
 **Tools**: Git and GitHub, ArcGIS Pro, QGIS, SNAP, Google Earth Engine, NetLogo, Adobe Illustrator, Photoshop, Lightroom, Microsoft Word, Powerpoint, Excel
 
