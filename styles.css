@@ -142,27 +142,30 @@ body.quarto-dark .navbar .bi {
   margin-bottom: 2rem !important;
 }
 
-/* Hidden on desktop */
-.cv-mobile {
+/* Hide mobile PDF link on desktop */
+.cv-mobile-link {
   display: none;
 }
 
-/* Phones and tablets */
-@media (max-width: 1024px) {
+/* Mobile + tablet */
+@media (max-width: 1200px) and (pointer: coarse) {
 
-  .cv-pdf {
-    display: none;
-  }
-
-  .cv-mobile {
-    display: block;
-    text-align: center;
-    padding: 2rem 0;
-  }
-
+  /* Show PDF link */
   .cv-mobile-link {
-    font-size: 1.05rem;
+    display: block;
+    width: min(900px, calc(100vw - 40px));
+    margin: 0 auto 2rem auto;
+  }
+
+  .cv-mobile-link a {
+    color: var(--bs-body-color);
     text-decoration: underline;
+    font-size: 1rem;
+  }
+
+  /* Hide embedded viewer on touch devices */
+  .cv-page {
+    display: none;
   }
 
 }

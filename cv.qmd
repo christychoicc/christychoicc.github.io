@@ -9,18 +9,20 @@ An overview of my academic background, professional experience, skills and achie
 
 :::
 
+<div class="cv-mobile-link">
+
+<a href="cv/cv.pdf" target="_blank">
+View CV as PDF in browser
+</a>
+
+</div>
+
 <div class="cv-page">
 
-  <iframe
-    src="cv/cv.pdf#zoom=page-width"
-    class="cv-pdf"
-    title="Curriculum Vitae">
-  </iframe>
-
-  <div class="cv-mobile">
-    <a href="cv/cv.pdf" target="_blank" class="cv-mobile-link">
-      View CV on mobile or tablet
-    </a>
-  </div>
+<iframe
+  src="cv/cv.pdf#zoom=page-width"
+  class="cv-pdf"
+  title="Curriculum Vitae">
+</iframe>
 
 </div>
