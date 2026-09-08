@@ -1,0 +1,20 @@
+---
+title: "Curriculum Vitae"
+page-layout: full
+---
+
+::: {.cv-intro}
+
+View and download my CV below. 
+
+:::
+
+<div class="cv-page">
+
+<iframe
+  src="cv/cv.pdf#zoom=page-width"
+  class="cv-pdf"
+  title="Curriculum Vitae">
+</iframe>
+
+</div>

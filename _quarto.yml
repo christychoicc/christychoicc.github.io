@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - cv/cv.pdf
+
+website:
+  title: "Christy Choi"
+
+  navbar:
+    right:
+      - href: index.qmd
+        text: About
+      - text: Projects
+        href: projects.qmd
+      - text: CV
+        href: cv.qmd
+      - icon: github
+        href: "https://github.com/christychoicc"
+        target: _blank
+
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: false
