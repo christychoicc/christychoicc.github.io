@@ -5,16 +5,22 @@ page-layout: full
 
 ::: {.cv-intro}
 
-View and download my CV below. 
+An overview of my academic background, professional experience, skills and achievements across spatial data analytics, GIS and transport planning. The CV is also available to view as a PDF on mobile and tablet devices.  
 
 :::
 
 <div class="cv-page">
 
-<iframe
-  src="cv/cv.pdf#zoom=page-width"
-  class="cv-pdf"
-  title="Curriculum Vitae">
-</iframe>
+  <iframe
+    src="cv/cv.pdf#zoom=page-width"
+    class="cv-pdf"
+    title="Curriculum Vitae">
+  </iframe>
+
+  <div class="cv-mobile">
+    <a href="cv/cv.pdf" target="_blank" class="cv-mobile-link">
+      View CV on mobile or tablet
+    </a>
+  </div>
 
 </div>

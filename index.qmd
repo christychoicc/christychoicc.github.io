@@ -1,0 +1,39 @@
+---
+page-layout: full
+---
+
+<div class="profile-hero">
+
+<div class="profile-image-column">
+
+<img src="images/profile.jpg"
+     class="profile-image"
+     alt="Portrait of Christy Choi">
+
+</div>
+
+<div class="profile-content">
+
+# Christy Choi
+
+Graduate Transport Planner at Stantec. Graduate of the University College London (UCL), the Bartlett Centre for Advanced Spatial Analysis (CASA) and the University of Manchester. I specialise in spatial data analytics, GIS, QUANT and transport planning. If you'd like to read more about my background and works, feel free to navigate through this page! 
+
+<div class="profile-links">
+
+<a href="mailto:choichichinchristy@gmail.com">
+<i class="bi bi-envelope"></i>
+</a>
+
+<a href="www.linkedin.com/in/choichichinchristy" target="_blank">
+<i class="bi bi-linkedin"></i>
+</a>
+
+<a href="https://github.com/christychoicc" target="_blank">
+<i class="bi bi-github"></i>
+</a>
+
+</div>
+
+</div>
+
+</div>

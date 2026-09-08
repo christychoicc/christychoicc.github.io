@@ -141,3 +141,120 @@ body.quarto-dark .navbar .bi {
   margin-top: 3rem !important;
   margin-bottom: 2rem !important;
 }
+
+/* Hidden on desktop */
+.cv-mobile {
+  display: none;
+}
+
+/* Phones and tablets */
+@media (max-width: 1024px) {
+
+  .cv-pdf {
+    display: none;
+  }
+
+  .cv-mobile {
+    display: block;
+    text-align: center;
+    padding: 2rem 0;
+  }
+
+  .cv-mobile-link {
+    font-size: 1.05rem;
+    text-decoration: underline;
+  }
+
+}
+
+
+/* HOMEPAGE (INDEX PAGE) PROFILE */
+
+.profile-hero {
+  max-width: 1050px;
+  margin: 6rem auto;
+  padding: 0 2rem;
+
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
+
+/* Profile photo */
+.profile-image-column {
+  flex: 0 0 auto;
+}
+
+.profile-image {
+  width: 290px;
+  height: 290px;
+  object-fit: cover;
+  border-radius: 18px;
+  display: block;
+}
+
+/* Text */
+.profile-content {
+  flex: 1;
+  max-width: 650px;
+}
+
+.profile-content h1 {
+  margin-top: 0;
+  margin-bottom: 1.2rem;
+
+  font-size: 3rem;
+}
+
+.profile-content p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+
+/* Social/contact icons */
+.profile-links {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+
+  margin-top: 1.8rem;
+}
+
+.profile-links a {
+  color: var(--bs-body-color);
+  font-size: 1.5rem;
+  text-decoration: none;
+
+  transition: opacity 0.2s ease,
+              transform 0.2s ease;
+}
+
+.profile-links a:hover {
+  opacity: 0.6;
+  transform: translateY(-2px);
+}
+
+
+/* Mobile */
+@media (max-width: 768px) {
+
+  .profile-hero {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.5rem;
+
+    margin-top: 3rem;
+  }
+
+  .profile-image {
+    width: 180px;
+    height: 180px;
+  }
+
+  .profile-content h1 {
+    font-size: 2.4rem;
+  }
+
+}

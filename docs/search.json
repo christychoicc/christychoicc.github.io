@@ -4,7 +4,7 @@
     "href": "cv.html",
     "title": "Curriculum Vitae",
     "section": "",
-    "text": "View and download my CV below."
+    "text": "An overview of my academic background, professional experience, skills and achievements across spatial data analytics, GIS and transport planning. The CV is also available to view as a PDF on mobile and tablet devices.\n\n\n \n\n&lt;a href=\"cv/cv.pdf\" target=\"_blank\" class=\"cv-mobile-link\"&gt;\n  View CV on mobile or tablet\n&lt;/a&gt;"
   },
   {
     "objectID": "cv/cv.html",
@@ -12,5 +12,12 @@
     "title": "About me",
     "section": "",
     "text": "About me\nA Graduate Transport Planner at Stantec, with expertise in spatial data analytics, GIS and QUANT. I hold an MSc from the Bartlett, University College London (UCL) and a BSc from the University of Manchester. I am experienced in processing and analysing complex datasets, producing clear visualisation, and translating findings into evidence-based recommendations. I am committed to applying digital urban analytics in navigating complexities and delivering well-informed and inclusive long-term solutions to address challenges.\n\n\nEducation\n\n\n# A tibble: 4 × 5\n  what                                                when     with  where why  \n  &lt;chr&gt;                                               &lt;chr&gt;    &lt;chr&gt; &lt;chr&gt; &lt;lis&gt;\n1 Master of Science - MSc, Urban Spatial Science      2025-20… Univ… Lond… &lt;chr&gt;\n2 Bachelor of Science - BSc, Planning and Real Estate 2022-20… Univ… Manc… &lt;chr&gt;\n3 Global Summer School                                2022     Tsin… China &lt;chr&gt;\n4 A-Levels & GCSEs                                    2017-20… St. … U.K.  &lt;chr&gt;\n\n\n\n\nExperience\n\n\n# A tibble: 5 × 5\n  what                                  when                   with  where why  \n  &lt;chr&gt;                                 &lt;chr&gt;                  &lt;chr&gt; &lt;chr&gt; &lt;lis&gt;\n1 Graduate Transport Planner            October 2026-Present   Stan… Lond… &lt;chr&gt;\n2 Operation Assistant, Internship       July 2023 - August 20… Paci… Hong… &lt;chr&gt;\n3 Retail Sales Specialist, Part-Time    May 2023 - June 2023   Croy… Manc… &lt;chr&gt;\n4 Landscape Architecture Summer Trainee July 2021 - August 20… Sanf… Hong… &lt;chr&gt;\n5 Design Assistant, Internship          July 2020 - August 20… GYSO… Hong… &lt;chr&gt;\n\n\n\n\nSkills and Achievements\n\n\n\nA tibble: 3 × 3\nwhat when with    1 Royal Academy of Dramatic Arts (RADA) Advanced Communication Cour… 2021  2 BCS ECDL Level 2 IT User Skills 2020  3 Duke of Edinburgh Bronze Award 2019"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Christy Choi",
+    "section": "",
+    "text": "Christy Choi\nGraduate Transport Planner at Stantec. Graduate of the University College London (UCL), the Bartlett Centre for Advanced Spatial Analysis (CASA) and the University of Manchester. I specialise in spatial data analytics, GIS, QUANT and transport planning. If you’d like to read more about my background and works, feel free to navigate through this page!"
   }
 ]
