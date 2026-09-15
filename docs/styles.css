@@ -276,7 +276,7 @@ body.quarto-dark .navbar .bi {
    remove the padding that makes the text
    sit further inward than the image */
 .quarto-grid-item .card-body {
-  padding: 1.15rem 0 0 0 !important;
+  padding: 1rem 0 0 0 !important;
 }
 
 
@@ -289,14 +289,23 @@ body.quarto-dark .navbar .bi {
 }
 
 
-/* Cover image */
-.quarto-grid-item .card-img-top {
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
-  border-radius: 0 !important;
+/* Image wrapper */
+.quarto-grid-item p.card-img-top {
+  margin: 0 !important;
+  padding: 0 !important;
+  aspect-ratio: auto !important;
 }
 
+
+/* Actual cover image */
+.quarto-grid-item .thumbnail-image {
+  width: 100% !important;
+  height: auto !important;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+  border-radius: 0 !important;
+}
 
 /* Category */
 .quarto-grid-item .listing-category {
@@ -396,7 +405,8 @@ body:has(.quarto-listing-container-grid) #title-block-header {
   margin-bottom: 4rem !important;
 }
 
-/* Pull project text closer to the image for research and projects */
-.quarto-grid-item .card-body.post-contents {
-  margin-top: -2rem !important;
+/* Space between project cards */
+.quarto-listing-container-grid .list.grid.quarto-listing-cols-3 {
+  row-gap: 3.5rem !important;
+  column-gap: 4rem !important;
 }
