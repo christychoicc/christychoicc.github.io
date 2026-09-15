@@ -3,7 +3,7 @@ name: Chi Chin Christy
 surname: Choi
 position: ""
 pronouns: she/her
-address: "London, Hong Kong"
+address: "Right to work: UK (British citizen) and Hong Kong SAR (permanent residence)"
 www: christychoicc.github.io
 email: "choichichinchristy@gmail.com"
 github: christychoicc
@@ -21,7 +21,7 @@ library(vitae)
 
 # About me
 
-A Graduate Transport Planner at Stantec, with expertise in spatial data analytics, GIS and QUANT. I hold an MSc from the Bartlett, University College London (UCL) and a BSc from the University of Manchester. I am experienced in processing and analysing complex datasets, producing clear visualisation, and translating findings into evidence-based recommendations. I am committed to applying digital urban analytics in navigating complexities and delivering well-informed and inclusive long-term solutions to address challenges.
+A Graduate Transport Planner at Stantec, with expertise in spatial data analytics, GIS and QUANT. I hold an MSc from the Bartlett, University College London and a BSc from the University of Manchester. I am experienced in processing and analysing complex datasets, producing clear visualisation, and translating findings into evidence-based recommendations. I am committed to applying digital urban analytics in navigating complexities and delivering well-informed and inclusive long-term solutions to address challenges.
 
 # Education
 
@@ -34,7 +34,7 @@ tribble(
   "Master of Science - MSc, Urban Spatial Science", "2025-2026", "University College London, Bartlett Centre for Advanced Spatial Analysis (CASA)", "London, U.K.", "Dissertation: Assessing Spatial Equity in Multimodal Accessibility to Cooling-Effective Urban Green Spaces, A Case Study of London",
   "Master of Science - MSc, Urban Spatial Science", "2025-2026", "University College London, Bartlett Centre for Advanced Spatial Analysis (CASA)", "London, U.K.", "Specialisation in Big Data, Urban Modelling and Simulation: Urban Systems Theory; Geographic Information Systems and Science; Quantitative Methods; Foundations of Spatial Data Science; Data Science for Spatial Systems; Agent-based Modelling for Spatial Systems; Building Spatial Applications with Big Data; Remotely Sensing Cities and Environments.",
   
-  "Bachelor of Science - BSc, Planning and Real Estate", "2022-2025", "University of Manchester", "Manchester, U.K.", "RICS Accredited, RTPI (Spatial) Partially Accredited", 
+  "Bachelor of Science - BSc, Planning and Real Estate", "2022-2025", "University of Manchester", "Manchester, U.K.", "RICS Accredited, RTPI Partially (Spatial) Accredited", 
   "Bachelor of Science - BSc, Planning and Real Estate", "2022-2025", "University of Manchester", "Manchester, U.K.", "Second Class with Honours, Division One (2.1)", 
   "Bachelor of Science - BSc, Planning and Real Estate", "2022-2025", "University of Manchester", "Manchester, U.K.", "Dissertation: Explore The Role of Vertical Greenery Systems in Enhancing Urban Energy Efficiency in Dense Urban Areas, Strategies for Hong Kong.", 
   "Bachelor of Science - BSc, Planning and Real Estate", "2022-2025", "University of Manchester", "Manchester, U.K.", "Developed a strong understanding in urban theories, policies and application of planning law principles to real world case studies. Gained practical experiences in valuation and appraisal analyses, plan-making, and applied development projects incorporating spatial analyses, developed data analytics skills to support evidence-based decision-making approaches in urban design and research.", 
@@ -63,7 +63,7 @@ tribble(
 ```{r}
 tribble(
   ~Role, ~Year, ~Company, ~Where, ~Details,
-  "Graduate Transport Planner", "October 2026-Present", "Stantec", "London, U.K.", "Transport and digital planning",
+  "Graduate Transport Planner", "October 2026 - Present", "Stantec", "London, U.K.", "Transport and digital planning",
   
   "Operation Assistant, Internship", "July 2023 - August 2023", "Pacific Infrastructure Limited", "Hong Kong", "Assisted in the transition prior to the HKeToll system (smart mobility initiative for automated toll payments), monitoring CCTV footages for evasions, tracing vehicle owners and preparation of formal correspondence to ensure regulatory compliances.",
   
@@ -104,6 +104,7 @@ cat("\\entrytitlestyle{Qualifications}\n\n")
 
 tribble(
   ~Qualification, ~Year,
+  "WSET Level 1 Awards in Wines", "2025",
   "Royal Academy of Dramatic Arts (RADA) Advanced Communication Course", "2021",
   "BCS ECDL Level 2 IT User Skills", "2020",
   "Duke of Edinburgh Bronze Award", "2019"

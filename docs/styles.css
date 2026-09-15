@@ -261,3 +261,142 @@ body.quarto-dark .navbar .bi {
   }
 
 }
+
+
+/* RESEARCH & PROJECTS LISTING */
+/* Remove Quarto's default card appearance */
+.quarto-grid-item {
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
+
+
+/* IMPORTANT:
+   remove the padding that makes the text
+   sit further inward than the image */
+.quarto-grid-item .card-body {
+  padding: 1.15rem 0 0 0 !important;
+}
+
+
+/* Remove padding from footer / metadata too */
+.quarto-grid-item .card-footer {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  background: transparent !important;
+  border: none !important;
+}
+
+
+/* Cover image */
+.quarto-grid-item .card-img-top {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 0 !important;
+}
+
+
+/* Category */
+.quarto-grid-item .listing-category {
+  font-size: 0.72rem !important;
+  font-weight: 400;
+  color: #8c8c8c;
+  margin-bottom: 0.45rem;
+}
+
+
+/* Title */
+.quarto-grid-item .listing-title {
+  font-size: 1.25rem !important;
+  font-weight: 650;
+  line-height: 1.25;
+  margin-bottom: 0.55rem;
+  color: #111;
+}
+
+
+/* Description */
+.quarto-grid-item .listing-description,
+.quarto-grid-item .listing-description p,
+.quarto-grid-item .card-text,
+.quarto-grid-item .card-text p {
+  font-size: 0.90rem !important;
+  font-weight: 400 !important;
+  line-height: 1.5 !important;
+  color: #222 !important;
+  margin-bottom: 0.7rem;
+}
+
+
+/* Date / metadata */
+.quarto-grid-item .listing-date {
+  font-size: 0.74rem !important;
+  color: #999;
+}
+
+
+/* Remove underline / weird link styling */
+.quarto-grid-item a {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+
+/* Very subtle hover */
+.quarto-grid-item:hover .listing-title {
+  opacity: 0.65;
+}
+
+
+/* Space between rows */
+.quarto-listing-cols-3 {
+  row-gap: 3.5rem;
+}
+
+
+/* RESEARCH PAGE WIDTH */
+
+/* Keep a little breathing room at the sides,
+   but let the projects use most of the screen */
+body:has(.quarto-listing-container-grid) main.content {
+  max-width: none !important;
+  width: 100% !important;
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+}
+
+
+/* Centre the page title */
+body:has(.quarto-listing-container-grid) .quarto-title-block {
+  text-align: center;
+}
+
+body:has(.quarto-listing-container-grid) .quarto-title h1 {
+  text-align: center;
+  width: 100%;
+}
+
+
+/* Give the listing the available width */
+body:has(.quarto-listing-container-grid) .quarto-listing-container-grid {
+  width: 100%;
+  max-width: none !important;
+}
+
+
+/* Three genuinely wide columns */
+body:has(.quarto-listing-container-grid) .quarto-listing-cols-3 {
+  width: 100%;
+}
+
+/* More space below Research and Projects title */
+body:has(.quarto-listing-container-grid) #title-block-header {
+  margin-bottom: 4rem !important;
+}
+
+/* Pull project text closer to the image for research and projects */
+.quarto-grid-item .card-body.post-contents {
+  margin-top: -2rem !important;
+}
