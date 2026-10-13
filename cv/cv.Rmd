@@ -63,7 +63,7 @@ tribble(
 ```{r}
 tribble(
   ~Role, ~Year, ~Company, ~Where, ~Details,
-  "Graduate Transport Planner", "October 2026 - Present", "Stantec", "London, U.K.", "Transport and digital planning",
+  "Graduate Transport Planner", "October 2026 - Present", "Stantec", "London, U.K.", "Transport planning",
   
   "Operation Assistant, Internship", "July 2023 - August 2023", "Pacific Infrastructure Limited", "Hong Kong", "Assisted in the transition prior to the HKeToll system (smart mobility initiative for automated toll payments), monitoring CCTV footages for evasions, tracing vehicle owners and preparation of formal correspondence to ensure regulatory compliances.",
   
