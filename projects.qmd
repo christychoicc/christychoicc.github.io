@@ -17,6 +17,14 @@ listing:
     - date
 
   contents:
+    - title: "TfL Vision Zero Action Plan"
+      description: ""
+      image: images/GIS_TfLVisionZero.png
+      date: "12 December 2025"
+      categories:
+        - GIS, Spatial Analysis
+      path: https://christychoicc.github.io/TfL-Vision-Zero/
+
     - title: "Remotely Sensing Cities and Environment"
       description: "An introduction in remote sensing methods and applications."
       image: images/RSCE.png
