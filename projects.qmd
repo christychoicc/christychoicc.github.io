@@ -18,7 +18,7 @@ listing:
 
   contents:
     - title: "TfL Vision Zero Action Plan"
-      description: ""
+      description: "A Spatial Analysis of Hotspots Clustering Activities of Deaths and Injuries in London"
       image: images/GIS_TfLVisionZero.png
       date: "12 December 2025"
       categories:
@@ -40,4 +40,12 @@ listing:
       categories:
         - Remote Sensing, Big Data
       path: https://christychoicc.github.io/lasvegas-turf-tracker/
+
+    - title: "Pedestrian Collision Severity in London"
+      description: "Does Proximity to Greenspace Access Points Improve Prediction of Severe Pedestrian Injury Outcomes?"
+      image: images/DSSS.png
+      date: "05 May 2026"
+      categories:
+        - Machine Learning, Spatial Data Science
+      path: https://christychoicc.github.io/london-pedestrian-severity/
 ---
