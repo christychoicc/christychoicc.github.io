@@ -30,7 +30,7 @@ listing:
       image: images/RSCE.png
       date: "01 February 2026"
       categories:
-        - Remote Sensing
+        - Remote Sensing, Machine Learning
       path: https://christychoicc.github.io/RSCE/
 
     - title: "Las Vegas Valley Turf Tracker"
@@ -46,6 +46,6 @@ listing:
       image: images/DSSS.png
       date: "05 May 2026"
       categories:
-        - Machine Learning, Spatial Data Science
+        - Machine Learning, Data Science
       path: https://christychoicc.github.io/london-pedestrian-severity/
 ---

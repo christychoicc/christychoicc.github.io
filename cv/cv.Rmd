@@ -3,7 +3,7 @@ name: Chi Chin Christy
 surname: Choi
 position: ""
 pronouns: she/her
-address: "Right to work: UK (British citizen) and Hong Kong SAR (permanent residence)"
+address: "Right to work: United Kingdom (British citizen) and Hong Kong S.A.R. (permanent residence)"
 www: christychoicc.github.io
 email: "choichichinchristy@gmail.com"
 github: christychoicc
@@ -31,11 +31,12 @@ library(tibble)
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where, ~ Details, 
   "Master of Science - MSc, Urban Spatial Science (now Urban and Spatial Data Science)", "2025-2026", "University College London, Bartlett Centre for Advanced Spatial Analysis (CASA)", "London, U.K.", "Royal Geographical Society (with IBG) Accredited",
+  "Master of Science - MSc, Urban Spatial Science (now Urban and Spatial Data Science)", "2025-2026", "University College London, Bartlett Centre for Advanced Spatial Analysis (CASA)", "London, U.K.", "Qualification awarded: Distinction",
   "Master of Science - MSc, Urban Spatial Science (now Urban and Spatial Data Science)", "2025-2026", "University College London, Bartlett Centre for Advanced Spatial Analysis (CASA)", "London, U.K.", "Dissertation: Assessing Spatial Equity in Multimodal Accessibility to Cooling-Effective Urban Green Spaces, A Case Study of London",
-  "Master of Science - MSc, Urban Spatial Science (now Urban and Spatial Data Science)", "2025-2026", "University College London, Bartlett Centre for Advanced Spatial Analysis (CASA)", "London, U.K.", "Specialisation in Big Data, Urban Modelling and Simulation: Urban Systems Theory; Geographic Information Systems and Science; Quantitative Methods; Foundations of Spatial Data Science; Data Science for Spatial Systems; Agent-based Modelling for Spatial Systems; Building Spatial Applications with Big Data; Remotely Sensing Cities and Environments.",
+  "Master of Science - MSc, Urban Spatial Science (now Urban and Spatial Data Science)", "2025-2026", "University College London, Bartlett Centre for Advanced Spatial Analysis (CASA)", "London, U.K.", "Specialised in spatial data science, with a strong foundation in urban systems theory and expertise in advanced quantitative methods and geospatial applications, including agent-based modelling, big data analytics, and and remote sensing and Earth observation. Developed technical and analytical capabilities to monitor and address complex urban challenges and inform numerical-evidence-based planning, policy, and decision-making.",
   
   "Bachelor of Science - BSc, Planning and Real Estate", "2022-2025", "University of Manchester", "Manchester, U.K.", "RICS Accredited, RTPI Partially (Spatial) Accredited", 
-  "Bachelor of Science - BSc, Planning and Real Estate", "2022-2025", "University of Manchester", "Manchester, U.K.", "Second Class with Honours, Division One (2.1)", 
+  "Bachelor of Science - BSc, Planning and Real Estate", "2022-2025", "University of Manchester", "Manchester, U.K.", "Qualification awarded: Second Class with Honours, Division One (2.1)", 
   "Bachelor of Science - BSc, Planning and Real Estate", "2022-2025", "University of Manchester", "Manchester, U.K.", "Dissertation: Explore The Role of Vertical Greenery Systems in Enhancing Urban Energy Efficiency in Dense Urban Areas, Strategies for Hong Kong.", 
   "Bachelor of Science - BSc, Planning and Real Estate", "2022-2025", "University of Manchester", "Manchester, U.K.", "Developed a strong understanding in urban theories, policies and application of planning law principles to real world case studies. Gained practical experiences in valuation and appraisal analyses, plan-making, and applied development projects incorporating spatial analyses, developed data analytics skills to support evidence-based decision-making approaches in urban design and research.", 
   
@@ -45,7 +46,7 @@ tribble(
   "A-Levels & GCSEs", "2017-2022", "St. Mary's School, Calne", "U.K.", "A-Levels: Fine Art, Mathematics, Economics, Chinese (Traditional Chinese, Mandarin)",
   "A-Levels & GCSEs", "2017-2022", "St. Mary's School, Calne", "U.K.", "EPQ: Extended Project (Level 3) Qualifications 2022",
   "A-Levels & GCSEs", "2017-2022", "St. Mary's School, Calne", "U.K.", "Young Enterprise West England 2021- Best Innovation Award, Best Presentation Award, Best Report Award, Best Overall Award",
-  "A-Levels & GCSEs", "2017-2022", "St. Mary's School, Calne", "U.K.", "GCSE: English Language, English Literature, Mathematics, Double Award in Science, Fine Art, Geography, German Language, Religious Studies",
+  "A-Levels & GCSEs", "2017-2022", "St. Mary's School, Calne", "U.K.", "GCSEs: English Language, English Literature, Mathematics, Double Award in Science, Fine Art, Geography, German Language, Religious Studies",
   "A-Levels & GCSEs", "2017-2022", "St. Mary's School, Calne", "U.K.", "University of Oxford German Olympiad Award 2019 – Highly Commended",
   
 ) %>%
@@ -88,7 +89,7 @@ tribble(
 ```{r technical-skills, echo=FALSE, results='asis'}
 cat(
   "\\vspace{\\acvSectionContentTopSkip}\n",
-  "\\cvsimpleentry{Technical Proficiency}{Python; R; SQL; QGIS; ArcGIS Pro; Google Earth Engine; SNAP; Git; GitHub; NetLogo; Adobe Photoshop; Illustrator}\n",
+  "\\cvsimpleentry{Technical Proficiency}{Python; R; SQL; ArcGIS Pro; QGIS; Google Earth Engine; SNAP; Git/GitHub; NetLogo; Adobe Photoshop; Illustrator}\n",
   sep = ""
 )
 ```
