@@ -22,7 +22,7 @@ listing:
       image: images/GIS_TfLVisionZero.png
       date: "12 December 2025"
       categories:
-        - GIS, Spatial Analysis
+        - GIS, Spatial Data Analytics
       path: https://christychoicc.github.io/TfL-Vision-Zero/
 
     - title: "Remotely Sensing Cities and Environment"
@@ -48,4 +48,12 @@ listing:
       categories:
         - Machine Learning, Data Science
       path: https://christychoicc.github.io/london-pedestrian-severity/
+
+    - title: "Assessing Spatial Equity in Multimodal Accessibility to Cooling-Effective Urban Green Space: A Case Study of London"
+      description: "MSc thesis research on urban heat islands, urban green space, accessibility, spatial inequality, and environmental justice."
+      image: images/thesis.jpg
+      date: "31 August 2026"
+      categories:
+        - Remote Sensing, r5r, Spatial Data Science
+      path: https://christychoicc.github.io/london-cooling-access-equity-thesis/
 ---
