@@ -17,14 +17,22 @@ listing:
     - date
 
   contents:
-    - title: "TfL Vision Zero Action Plan"
-      description: "A Spatial Analysis of Hotspots Clustering Activities of Deaths and Injuries in London"
-      image: images/GIS_TfLVisionZero.png
-      date: "12 December 2025"
+    - title: "Assessing Spatial Equity in Multimodal Accessibility to Cooling-Effective Urban Green Space: A Case Study of London"
+      description: "MSc thesis research on urban heat islands, urban green space, accessibility, spatial inequality, and environmental justice."
+      image: images/thesis.jpg
+      date: "31 August 2026"
       categories:
-        - GIS, Spatial Data Analytics
-      path: https://christychoicc.github.io/TfL-Vision-Zero/
-
+        - Remote Sensing, r5r, Spatial Data Science
+      path: https://christychoicc.github.io/london-cooling-access-equity-thesis/
+      
+    - title: "Pedestrian Collision Severity in London"
+      description: "Does Proximity to Greenspace Access Points Improve Prediction of Severe Pedestrian Injury Outcomes?"
+      image: images/DSSS.png
+      date: "05 May 2026"
+      categories:
+        - Machine Learning, Data Science
+      path: https://christychoicc.github.io/london-pedestrian-severity/
+      
     - title: "Remotely Sensing Cities and Environment"
       description: "An introduction in remote sensing methods and applications."
       image: images/RSCE.png
@@ -41,19 +49,11 @@ listing:
         - Remote Sensing, Big Data
       path: https://christychoicc.github.io/lasvegas-turf-tracker/
 
-    - title: "Pedestrian Collision Severity in London"
-      description: "Does Proximity to Greenspace Access Points Improve Prediction of Severe Pedestrian Injury Outcomes?"
-      image: images/DSSS.png
-      date: "05 May 2026"
+    - title: "TfL Vision Zero Action Plan"
+      description: "A Spatial Analysis of Hotspots Clustering Activities of Deaths and Injuries in London"
+      image: images/GIS_TfLVisionZero.png
+      date: "12 December 2025"
       categories:
-        - Machine Learning, Data Science
-      path: https://christychoicc.github.io/london-pedestrian-severity/
-
-    - title: "Assessing Spatial Equity in Multimodal Accessibility to Cooling-Effective Urban Green Space: A Case Study of London"
-      description: "MSc thesis research on urban heat islands, urban green space, accessibility, spatial inequality, and environmental justice."
-      image: images/thesis.jpg
-      date: "31 August 2026"
-      categories:
-        - Remote Sensing, r5r, Spatial Data Science
-      path: https://christychoicc.github.io/london-cooling-access-equity-thesis/
+        - GIS, Spatial Data Analytics
+      path: https://christychoicc.github.io/TfL-Vision-Zero/
 ---
