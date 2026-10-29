@@ -18,7 +18,7 @@ listing:
 
   contents:
     - title: "Assessing Spatial Equity in Multimodal Accessibility to Cooling-Effective Urban Green Space: A Case Study of London"
-      description: "MSc thesis research on urban heat islands, urban green space, accessibility, spatial inequality, and environmental justice."
+      description: "This MSc thesis applies an environmental justice framework, integrating Earth observation indicators to assess whether neighbourhoods facing greater urban heat exposure and socioeconomic deprivation have equitable access to cooling benefits, considering multimodal transport accessibility."
       image: images/thesis.jpg
       date: "31 August 2026"
       categories:
@@ -26,7 +26,7 @@ listing:
       path: https://christychoicc.github.io/london-cooling-access-equity-thesis/
       
     - title: "Pedestrian Collision Severity in London"
-      description: "Does Proximity to Greenspace Access Points Improve Prediction of Severe Pedestrian Injury Outcomes?"
+      description: "Does Proximity to Greenspace Access Points Improve Prediction of Severe Pedestrian Injury Outcomes? A Python markdown analysis report exploring spatial patterns in pedestrian injury severity and the relationship between greenspace proximity and severe injury outcomes."
       image: images/DSSS.png
       date: "05 May 2026"
       categories:
@@ -34,7 +34,7 @@ listing:
       path: https://christychoicc.github.io/london-pedestrian-severity/
       
     - title: "Remotely Sensing Cities and Environment"
-      description: "An introduction in remote sensing methods and applications."
+      description: "A remote sensing portfolio exploring advanced methodologies for applying Earth observation data and spatial analysis to address urban and environmental challenges, supporting climate adaptation, urban sustainability, and evidence-based policymaking."
       image: images/RSCE.png
       date: "01 February 2026"
       categories:
@@ -42,15 +42,15 @@ listing:
       path: https://christychoicc.github.io/RSCE/
 
     - title: "Las Vegas Valley Turf Tracker"
-      description: "An interactive web application"
+      description: "An interactive web application for exploring spatiotemporal changes in urban green space, land surface temperature, and water consumption across the Las Vegas Valley to assess the environmental trade-offs of turf removal policies."
       image: images/turftracker.png
       date: "28 April 2026"
       categories:
-        - Remote Sensing, Big Data
+        - Big Data, Remote Sensing
       path: https://christychoicc.github.io/lasvegas-turf-tracker/
 
     - title: "TfL Vision Zero Action Plan"
-      description: "A Spatial Analysis of Hotspots Clustering Activities of Deaths and Injuries in London"
+      description: "A spatial analysis of hotspots clustering activities of deaths and injuries in London, an analysis report using the R programming language."
       image: images/GIS_TfLVisionZero.png
       date: "12 December 2025"
       categories:
